@@ -15,7 +15,6 @@
             <li><a href="<?php echo home_url('/blog/'); ?>">Pet blog</a></li>
         </ul>
         <div class="cart">
-            <!-- SVG for cart icon -->
-            <!-- (SVG content here) -->
+
         </div>
     </div>
