@@ -1,6 +1,6 @@
 
 <?php
-function my_custom_theme_scripts() {
+function my_custom_theme_styles() {
     // Enqueue the main stylesheet
     wp_enqueue_style('main-style', get_template_directory_uri() . '/css/style.css');
     
@@ -20,5 +20,5 @@ function my_custom_theme_scripts() {
     }
 }
 
-add_action('wp_enqueue_scripts', 'my_custom_theme_scripts');
+add_action('wp_enqueue_styles', 'my_custom_theme_styles');
 ?>
