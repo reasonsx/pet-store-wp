@@ -5,3 +5,6 @@ Description: CMS + DM Project
 Version: 1.0
 */
 
+body {
+    background-color: green;
+}
