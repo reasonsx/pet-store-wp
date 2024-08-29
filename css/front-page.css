@@ -72,7 +72,7 @@ li{
     color: white;
     width: auto;
     height: 700px;
-    background-image: url('/img/hero-home.png');
+    background-image: url('../img/hero-home.png');
 }
 .hero-text {
     display: flex;
