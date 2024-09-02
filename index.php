@@ -59,7 +59,9 @@
         </div>
     </div>
 </div>
-
+<div class="support-container">
+    <h1>Contact us</h1>
 <?php echo do_shortcode('[contact-form-7 id="24ffb52" title="Support form"]')?>
+</div>
 
 <?php get_footer(); ?>
