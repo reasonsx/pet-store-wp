@@ -192,3 +192,10 @@ button svg{
     height: 278px;
     background-color: var(--gray) ;
 }
+.support-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1160px;
+    margin: 0 auto;
+}
