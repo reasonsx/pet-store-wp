@@ -29,13 +29,7 @@
     </div>
 </div>
 
-<div class="introduction-container">
-    <?php if (has_post_thumbnail()): ?>
-        <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title_attribute(); ?>" width="550"
-            height="400">
-    <?php endif; ?>
-    <p class="text-introduction"><?php the_content(); ?></p>
-</div>
+
 
 <div class="comments">
     <?php if (comments_open() || get_comments_number()): ?>

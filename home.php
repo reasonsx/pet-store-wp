@@ -40,13 +40,14 @@ get_header(); // Include the header
                 while ($query->have_posts()) : $query->the_post();
             ?>
             <div class="post">
-                <div class="post-img">
-                    <?php 
-                    if (has_post_thumbnail()) {
-                        the_post_thumbnail('medium');
-                    }
-                    ?>
-                </div>
+                
+            <div class="thumbnail">
+    <?php if (has_post_thumbnail()): ?>
+        <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title_attribute(); ?>" width="550"
+            height="400">
+    <?php endif; ?>
+    <p class="text-introduction"><?php the_content(); ?></p>
+</div>
                 <div class="post-text">
                     <h2><?php the_title(); ?></h2>
                     <p><?php the_excerpt(); ?></p>
