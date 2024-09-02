@@ -40,16 +40,7 @@
             }
             ?>
         </div>
-        <div class="categories">
-        <?php
-        $categories = get_the_category();
-        if ($categories) {
-            foreach ($categories as $category) {
-                echo '<h2 class="category">' . esc_html($category->name) . '</h2>';
-            }
-        }
-        ?>
-    </div>
+        
     </div>
 
     <div class="introduction-container">
