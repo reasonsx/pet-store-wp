@@ -204,6 +204,7 @@ button svg{
     flex-direction: column;
     justify-content: space-between;
     width: 572px;
+    height: auto;
     padding: 16px;
     margin: 0 auto;
     background-color: white;
