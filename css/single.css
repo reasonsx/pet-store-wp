@@ -38,6 +38,19 @@ li{
     margin: 10px;
 
 }
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1160px;
+    height: auto;
+    margin: 0 auto;
+    /* align-items: center; */
+    /* padding: 20px; */
+    /* background-color: var(--orange); */
+    /* color: white; */
+    /* font-size: 20px; */
+}
 .dog-svg{
     display: flex;
 }

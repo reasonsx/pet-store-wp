@@ -1,5 +1,5 @@
 <?php get_header(); // Include the header ?>
-
+<div class="blog-post">
 <div class="blog-post-start">
     <h1 class="blog-post__title"><?php the_title(); ?></h1>
     <div class="categories">
@@ -27,6 +27,7 @@
         }
         ?>
     </div>
+</div>
 </div>
 <p class="text-introduction"><?php the_content(); ?></p>
 
