@@ -1,4 +1,3 @@
-
 <?php
 function my_custom_theme_scripts() {
     // Enqueue the main stylesheet
@@ -21,4 +20,4 @@ function my_custom_theme_scripts() {
 }
 
 add_action('wp_enqueue_scripts', 'my_custom_theme_scripts');
-?>
+
