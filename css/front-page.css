@@ -230,6 +230,7 @@ textarea {
     background-color: var(--orange);
     /* color: black; */
     /* padding: 15px; */
+    width: 278px;
     border: none;
     border-radius: 24px;
     cursor: pointer;
