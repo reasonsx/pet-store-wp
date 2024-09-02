@@ -59,6 +59,7 @@
         </div>
     </div>
 </div>
-<?php do_shortcode('[contact-form-7 id="24ffb52" title="Support form"]')?>
+
+<?php echo do_shortcode('[contact-form-7 id="24ffb52" title="Support form"]')?>
 
 <?php get_footer(); ?>
