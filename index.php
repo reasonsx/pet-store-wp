@@ -4,7 +4,7 @@
     <div class="hero">
         <div class="hero-text">
             <p>FAST & FREE SHIPPING</p>
-            <h1>WELCOME TO PET check</h1>
+            <h1>WELCOME TO PET SHOP</h1>
             <p>Best place to buy your pet needs</p>
             <button>
                 <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
