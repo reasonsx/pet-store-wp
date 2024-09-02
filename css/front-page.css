@@ -228,14 +228,13 @@ textarea {
 }
 .wpcf7-submit {
     background-color: var(--orange);
-    color: black;
-    padding: 15px;
+    /* color: black; */
+    /* padding: 15px; */
     border: none;
-    border-radius: 50px;
-    margin-top: 10px;
+    border-radius: 24px;
     cursor: pointer;
-    width: fit-content;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 20px;
+    /* width: fit-content; */
+    /* font-size: 20px; */
+    /* font-weight: bold; */
+    /* margin-top: 20px; */
 }
