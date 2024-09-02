@@ -209,3 +209,10 @@ button svg{
     background-color: white;
     border-radius: 40px;
 }
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--gray);
+    border-radius: 10px;
+}
