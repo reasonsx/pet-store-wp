@@ -6,6 +6,7 @@
     <!-- <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>"> -->
 
     <title>404 Error</title>
+    <?php wp_head(); ?>
 </head>
 <body>
     <div class="error-container">
