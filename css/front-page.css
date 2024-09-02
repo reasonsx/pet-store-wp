@@ -203,6 +203,7 @@ button svg{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     width: 572px;
     padding: 16px;
     margin: 0 auto;
