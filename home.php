@@ -46,7 +46,7 @@ get_header(); // Include the header
         <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title_attribute(); ?>" width="550"
             height="400">
     <?php endif; ?>
-    <p class="text-introduction"><?php the_content(); ?></p>
+    
 </div>
                 <div class="post-text">
                     <h2><?php the_title(); ?></h2>

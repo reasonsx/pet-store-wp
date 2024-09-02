@@ -28,7 +28,7 @@
         ?>
     </div>
 </div>
-
+<p class="text-introduction"><?php the_content(); ?></p>
 
 
 <div class="comments">
