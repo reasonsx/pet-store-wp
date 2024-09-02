@@ -26,6 +26,17 @@ get_header(); // Include the header
     </div>
 </div>
 
+<div class="categories-container">
+        <h1>CATEGORIES</h1>
+        <div class="categories">
+            <div class="category-box"><img src="<?php echo get_template_directory_uri(); ?>/img/Cat.png" alt=""></div>
+            <div class="category-box"><img src="<?php echo get_template_directory_uri(); ?>/img/Dog.png" alt=""></div>
+            <div class="category-box"><img src="<?php echo get_template_directory_uri(); ?>/img/Fish.png" alt=""></div>
+            <div class="category-box"><img src="<?php echo get_template_directory_uri(); ?>/img/Bird.png" alt=""></div>
+            <div class="category-box"><img src="<?php echo get_template_directory_uri(); ?>/img/Hamster.png" alt=""></div>
+        </div>
+    </div>
+    
 <div class="posts-container">
     <div class="posts-list">   
         <h1>NEWEST POSTS</h1>
