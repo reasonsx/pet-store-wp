@@ -6,17 +6,6 @@ Template Name: Blog Template
 get_header(); // Include the header
 ?>
 
-<!-- <div class="nav">
-    <div class="logo"><?php bloginfo('name'); // Display the site name ?></div>
-    <ul>
-        <li><a href="<?php echo home_url('/'); ?>">Home</a></li>
-        <li><a href="<?php echo home_url('/store'); ?>">Store</a></li>
-        <li><a href="<?php echo home_url('/blog'); ?>">Pet blog</a></li>
-    </ul>
-    <div class="cart">
-        <?php echo do_shortcode('[woocommerce_cart]'); ?>
-    </div>
-</div> -->
 
 <div class="hero-section">
     <div class="hero-img">
