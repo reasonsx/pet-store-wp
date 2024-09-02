@@ -45,11 +45,6 @@ li{
     width: 1160px;
     height: auto;
     margin: 0 auto;
-    /* align-items: center; */
-    /* padding: 20px; */
-    /* background-color: var(--orange); */
-    /* color: white; */
-    /* font-size: 20px; */
 }
 .dog-svg{
     display: flex;

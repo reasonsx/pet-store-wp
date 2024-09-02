@@ -28,8 +28,8 @@
         ?>
     </div>
 </div>
-</div>
 <p class="text-introduction"><?php the_content(); ?></p>
+</div>
 
 
 <div class="comments">
