@@ -197,5 +197,5 @@ button svg{
     flex-direction: column;
     justify-content: space-between;
     width: 1160px;
-    margin: 0 auto;
+    margin: 0 auto 160px auto;
 }
