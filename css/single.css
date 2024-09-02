@@ -1,0 +1,95 @@
+body{
+    background-color: #f0f0f0;
+    font-family: Poppins, sans-serif;
+    margin-top: 50px;
+    margin-left: 170px;
+    margin-right: 170px;
+    
+}
+
+.dog-svg{
+    display: flex;
+}
+
+.dog-svg h2{
+    margin-top: 30px;
+    margin-left: 10px;
+    color: #F2662B;
+}
+
+.hashtag {
+    color: #F2662B;
+    display: flex;
+    margin-right: 20px;
+}
+
+.hashtag h6{
+    margin-right: 10px;
+}
+
+.introduction-container{
+    display: flex;
+    flex-direction: row;
+}
+.text-introduction{
+    font-style: normal;
+    margin-left: 50px;
+    margin-top: 100px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.essential-care{
+    margin-top: 50px ;
+}
+
+.boxes-essential-care{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 28px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.boxes-essential-care h3{
+    color: #F2662B;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.veterinary{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.necessary-investments{
+    margin-top: 50px;
+}
+
+.boxes-necessary-investments h3{
+    color: #F2662B;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.boxes-necessary-investments p{
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.conclusion h2{
+    margin-top: 50px;
+}
+
+.text-conclusion{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.title-conclusion{
+    margin-right: 50px;
+}
