@@ -127,6 +127,10 @@ button{
 button svg{
     height: 20px;
 }
+button a {
+    text-decoration: none;
+    color: black;
+}
 .categories-container {
     display: flex;
     flex-direction: column;
