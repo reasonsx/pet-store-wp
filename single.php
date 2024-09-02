@@ -14,12 +14,12 @@
         </div>
 
         <p class="blog-post__info">
-            <a href="#"><?php echo esc_html(get_the_date()); ?></a> by 
-            <?php 
-            $author_id = get_the_author_meta('ID'); 
-            $author_url = get_author_posts_url($author_id); 
+            <a href="#"><?php echo esc_html(get_the_date()); ?></a> by
+            <?php
+            $author_id = get_the_author_meta('ID');
+            $author_url = get_author_posts_url($author_id);
             $author_name = get_the_author();
-            
+
             if ($author_id && $author_name) {
                 echo '<a href="' . esc_url($author_url) . '">' . esc_html($author_name) . '</a>';
             } else {
