@@ -4,7 +4,8 @@ body{
     margin-top: 50px;
     margin-left: 170px;
     margin-right: 170px;
-    
+    display: flex;
+    flex-direction: column;
 }
 .nav{
     display: flex;
