@@ -222,10 +222,16 @@ textarea {
     border: 1px solid var(--gray);
     border-radius: 8px;
 }
-.wpcf7-form-control {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid var(--gray);
-    border-radius: 8px;
-    background-color: red;
+.wpcf7-submit {
+    background-color: var(--orange);
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
 }
