@@ -196,7 +196,7 @@ button svg{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 1160px;
+    width: 572px;
     margin: 0 auto 160px auto;
 }
 .support-box {
@@ -229,15 +229,9 @@ textarea {
 .wpcf7-submit {
     justify-self: center;
     background-color: var(--orange);
-    /* color: black; */
-    /* padding: 15px; */
     width: 278px;
     border: none;
     border-radius: 24px;
     cursor: pointer;
-    margin: auto;
-    /* width: fit-content; */
-    /* font-size: 20px; */
-    /* font-weight: bold; */
-    /* margin-top: 20px; */
+    margin: 0 auto;
 }
