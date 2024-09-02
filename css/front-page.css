@@ -209,6 +209,9 @@ button svg{
     background-color: white;
     border-radius: 24px;
 }
+.support-box p {
+    margin: 10px 0;
+}
 input {
     width: 100%;
     padding: 8px;
