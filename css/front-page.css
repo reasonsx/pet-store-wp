@@ -227,7 +227,7 @@ textarea {
     resize: none;
 }
 .wpcf7-submit {
-    justify-self: center;
+    display: block;
     background-color: var(--orange);
     width: 278px;
     border: none;
