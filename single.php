@@ -12,6 +12,7 @@
         }
         ?>
     </div>
+
     <p class="blog-post__info">
         <a href="#"><?php echo get_the_date(); ?></a> by <a
             href="<?php echo get_author_posts_url(get_the_author_meta('ID')); ?>"><?php the_author(); ?></a>
@@ -26,10 +27,6 @@
         }
         ?>
     </div>
-    <?php if(comments_open() || get_comments_number()): ?>
-        <?php comments_template(); ?>
-    <?php endif; ?>
-
 </div>
 
 <div class="introduction-container">
@@ -38,6 +35,12 @@
             height="400">
     <?php endif; ?>
     <p class="text-introduction"><?php the_content(); ?></p>
+</div>
+
+<div class="comments">
+    <?php if (comments_open() || get_comments_number()): ?>
+        <?php comments_template(); ?>
+    <?php endif; ?>
 </div>
 
 <?php get_footer(); // Include the footer ?>
