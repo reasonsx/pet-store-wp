@@ -221,6 +221,7 @@ textarea {
     padding: 8px;
     border: 1px solid var(--gray);
     border-radius: 8px;
+    resize: none;
 }
 .wpcf7-submit {
     background-color: var(--orange);
