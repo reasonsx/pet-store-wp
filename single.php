@@ -1,4 +1,4 @@
-<?php get_header(); // Include the header ?>
+<?php get_header(); ?>
 <div class="blog-post">
     <div class="blog-post-start">
         <h1 class="blog-post__title"><?php the_title(); ?></h1>
@@ -20,7 +20,6 @@
             $author_url = get_author_posts_url($author_id); 
             $author_name = get_the_author();
             
-            // Debugging output
             if ($author_id && $author_name) {
                 echo '<a href="' . esc_url($author_url) . '">' . esc_html($author_name) . '</a>';
             } else {
@@ -50,4 +49,4 @@
     <?php endif; ?>
 </div>
 
-<?php get_footer(); // Include the footer ?>
+<?php get_footer(); ?>
