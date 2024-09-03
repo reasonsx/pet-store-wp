@@ -139,7 +139,7 @@ li{
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-    width: 80%; /* Match the width of posts */
+    width: 1160px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -148,6 +148,7 @@ li{
 .comment {
     display: flex;
     flex-direction: column;
+    padding: 20px;
     background-color: #D9D9D9;
     margin-bottom: 20px; /* Spacing between comments */
     width: 100%; /* Full width of the comments container */
