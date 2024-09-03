@@ -193,12 +193,10 @@ li{
     cursor: pointer;
     display: inline-block;
     margin-top: 10px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .comment-reply-link:hover {
     background-color: darkorange;
-    transform: translateY(-2px);
 }
 
 
@@ -230,12 +228,18 @@ li{
 
 .comment-form input[type="submit"] {
     background-color: var(--orange);
-    color: #fff;
-    border: none;
+    color: black;
     padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
 }
 
 .comment-form input[type="submit"]:hover {
-    background-color: #005177;
+    background-color: darkorange;
 }
