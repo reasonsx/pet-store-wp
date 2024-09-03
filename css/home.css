@@ -10,17 +10,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
-
-
 .nav{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
     background-color: rgba(217, 217, 217, 0.4); /* Semi-transparent background */
-    position: absolute; /* Position the nav absolutely */
-    top: 0; /* Align it to the top of the page */
+    /* position: absolute; Position the nav absolutely */
+    /* top: 0; Align it to the top of the page */
     width: 100%; /* Make it full-width */
     z-index: 1; /* Ensure it stays on top of other content */
 }
@@ -41,6 +38,8 @@ li{
     margin: 10px;
 
 }
+
+
 .cart{
     margin-left: auto;
 }
@@ -126,6 +125,10 @@ button{
 }
 button svg{
     height: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
 }
 .categories-container {
     display: flex;
