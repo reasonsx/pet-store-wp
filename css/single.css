@@ -133,7 +133,7 @@ li{
     margin-right: 50px;
 }
 
-.comment-list{
+.comments{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
