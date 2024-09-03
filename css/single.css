@@ -156,6 +156,7 @@ li{
     flex-direction: column;
     padding: 20px;
     background-color: #D9D9D9;
+    border-radius: 24px;
     margin-bottom: 20px; /* Spacing between comments */
     width: 100%; /* Full width of the comments container */
 }
