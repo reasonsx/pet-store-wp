@@ -201,3 +201,62 @@ li{
 
 
 
+
+
+/* Container for the comment form */
+.comment-respond {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 572px; /* Same width as support box */
+    margin: 0 auto 160px auto;
+}
+
+/* Styling the comment form box */
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px;
+    background-color: white;
+    border-radius: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+}
+
+/* Common input styles */
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+/* Style for textareas */
+.comment-form textarea {
+    resize: none;
+    height: 150px; /* Adjust height as needed */
+}
+
+/* Submit button styling */
+.comment-form .submit {
+    display: block;
+    background-color: var(--orange);
+    color: black;
+    width: 278px;
+    border: none;
+    border-radius: 24px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.comment-form .submit:hover {
+    background-color: darkorange;
+    transform: translateY(-2px);
+}
