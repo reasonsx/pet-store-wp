@@ -170,7 +170,7 @@ li{
     border-left: 2px solid #eaeaea;
 }
 
-.comment-reply-link {
+.reply a {
     background-color: var(--orange) !important; /* Ensures the background color is always orange */
     color: black;
     padding: 15px;
