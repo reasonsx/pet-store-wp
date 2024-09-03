@@ -48,10 +48,10 @@
         <p class="text-introduction"><?php the_content(); ?></p>
     </div>
 
-    <div class="essential-care">
+ <!--    <div class="essential-care">
         <h2>Essential Care for Your Dog</h2>
         <div class="boxes-essential-care">
-            <!-- Replace static content with dynamic WordPress fields if applicable -->
+             // Replace static content with dynamic WordPress fields if applicable 
             <div class="nutrition">
                 <h3>Nutrition</h3>
                 <p>One of the most critical aspects of dog care is providing a balanced and nutritious diet. High-quality commercial dog food that meets your dog's age, size, and health needs is essential. Consult your vet to choose the right food and establish a feeding schedule. Don’t forget about fresh water – your dog should have access to clean water at all times.</p>
@@ -102,6 +102,7 @@
             </div>
             <img src="<?php echo get_template_directory_uri(); ?>/img/womendog.png" alt="womendog" width="550" height="400">
         </div>
-    </div>
+    </div> -->
 
 <?php get_footer(); // Include the footer ?>
+
