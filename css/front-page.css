@@ -243,6 +243,6 @@ textarea {
     cursor: pointer;
     margin: auto;
 }
-.support-box p:nth-child(4) {
-    height: 10px;
+.support-box p:nth-child(5) {
+    height: 16px;
 }
