@@ -144,6 +144,10 @@ li{
     margin-right: auto;
 }
 
+.commentlist{
+    width: 100%;
+}
+
 /* Individual comment styling */
 .comment {
     display: flex;
