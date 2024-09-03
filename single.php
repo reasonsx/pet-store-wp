@@ -43,6 +43,12 @@
     <p class="text-introduction"><?php the_content(); ?></p>
 </div>
 
-    
+<div class="comments">
+    <?php
+    if (comments_open() || get_comments_number()):?> 
+        <?php comments_template(); ?>
+    <?php endif; ?>
+</div>
+
 
 <?php get_footer(); // Include the footer ?>
