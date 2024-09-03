@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+:root{
+    --orange: #FB9529;
+}
 body{
     background-color: #f0f0f0;
     display: flex;
@@ -205,4 +207,35 @@ li{
 .comment-respond {
     margin-top: 40px;
     width: 100%;
+}
+
+
+.comment-form label {
+    font-weight: bold;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comment-form textarea {
+    height: 150px;
+}
+
+.comment-form input[type="submit"] {
+    background-color: var(--orange);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.comment-form input[type="submit"]:hover {
+    background-color: #005177;
 }
