@@ -25,11 +25,12 @@
         <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
         <div class="offer">
-            <img src="<?php echo esc_url(get_field('offer-image')); ?>" alt="<?php echo esc_attr(get_field('offer-title')); ?>">
+            <img src="<?php echo esc_url(get_field('offer-image')); ?>" alt="">
             <h2><?php echo esc_html(get_field('offer-title')); ?></h2>
             <p><?php echo esc_html(get_field('offer-description')); ?></p>
         </div>
     <?php endwhile; ?>
+    <?php wp_reset_postdata(); ?>
 <?php endif; ?>
 
         </div>
