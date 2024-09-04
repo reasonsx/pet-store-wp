@@ -22,21 +22,22 @@
     <div class="latest-offers">
         <h1>LATEST OFFERS</h1>
         <div class="offers">
-            <div class="offer">
+        <?php
+$the_query = new WP_Query(); ?>
+
+<?php if ( $the_query->have_posts() ) : ?>
+
+    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+    <div class="offer">
                 <img src="<?php echo $offerImage ?>" alt="">
                 <h2><?php echo $offerTitle ?></h2>
                 <p><?php echo $offerDescription ?></p>
             </div>
-            <div class="offer">
-                <img src="<?php echo $offerImage ?>" alt="">
-                <h2><?php echo $offerTitle ?></h2>
-                <p><?php echo $offerDescription ?></p>
-            </div>
-            <div class="offer">
-                <img src="<?php echo $offerImage ?>" alt="">
-                <h2><?php echo $offerTitle ?></h2>
-                <p><?php echo $offerDescription ?></p>
-            </div>
+    <?php endwhile; ?>
+
+    <?php wp_reset_postdata(); ?>
+
+<?php endif; ?>
         </div>
     </div>
     <div class="categories-container">
