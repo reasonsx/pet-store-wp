@@ -2,6 +2,9 @@
 <?php $title1= get_field('title-1')?>
 <?php $title2= get_field('title-2')?>
 <?php $title3= get_field('title-3')?>
+<?php $offerImage= get_field('offer-image')?>
+<?php $offerTitle= get_field('offer-title')?>
+<?php $offerDescription= get_field('offer-description')?>
 <div class="hero-container">
     <div class="hero">
         <div class="hero-text">
@@ -20,19 +23,19 @@
         <h1>LATEST OFFERS</h1>
         <div class="offers">
             <div class="offer">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/offer1.png" alt="">
-                <h2>Toys 30% OFF</h2>
-                <p>Old collection toys</p>
+                <img src="<?php echo $offerImage ?>" alt="">
+                <h2><?php echo $offerTitle ?></h2>
+                <p><?php echo $offerDescription ?></p>
             </div>
             <div class="offer">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/offer2.png" alt="">
-                <h2>Food 10% OFF</h2>
-                <p>All dog food brands</p>
+                <img src="<?php echo $offerImage ?>" alt="">
+                <h2><?php echo $offerTitle ?></h2>
+                <p><?php echo $offerDescription ?></p>
             </div>
             <div class="offer">
-                <img src="<?php echo get_template_directory_uri(); ?>/img/offer3.png" alt="">
-                <h2>Free Gift</h2>
-                <p>Buy a fish food get a gift for free</p>
+                <img src="<?php echo $offerImage ?>" alt="">
+                <h2><?php echo $offerTitle ?></h2>
+                <p><?php echo $offerDescription ?></p>
             </div>
         </div>
     </div>
