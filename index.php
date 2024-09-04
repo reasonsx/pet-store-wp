@@ -30,7 +30,6 @@
             <p><?php echo esc_html(get_field('offer-description')); ?></p>
         </div>
     <?php endwhile; ?>
-    <?php wp_reset_postdata(); ?>
 <?php endif; ?>
 
         </div>
