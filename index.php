@@ -1,9 +1,9 @@
 <?php get_header(); ?>
-
+<?php $title1= get_field('title-1')?>
 <div class="hero-container">
     <div class="hero">
         <div class="hero-text">
-            <p>FAST & FREE SHIPPING</p>
+            <p><?php echo $title1 ?></p>
             <h1>WELCOME TO PET SHOP</h1>
             <p>Best place to buy your pet needs</p>
             <button>
