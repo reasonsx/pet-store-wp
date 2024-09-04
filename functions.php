@@ -25,4 +25,4 @@ function plp_register_strings() {
     pll_register_string('contact-us', 'Contact us');
     pll_register_string('read-more', 'Read more');
 }
-
+add_action('init', 'plp_register_strings');
