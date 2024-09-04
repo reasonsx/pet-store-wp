@@ -24,7 +24,7 @@
         <div class="offers">
         <?php
         $the_query = new WP_Query(array(
-            'post_type' => 'offer', // Replace 'offer' with your custom post type or 'post' for default posts
+            'post_type' => 'card', // Replace 'offer' with your custom post type or 'post' for default posts
             'posts_per_page' => 5   // Adjust the number of posts to display
         )); ?>
 
