@@ -16,3 +16,13 @@ function my_custom_theme_scripts()
 
 add_action('wp_enqueue_scripts', 'my_custom_theme_scripts');
 
+function plp_register_strings() {
+    pll_register_string('nav-store', 'Store');
+    pll_register_string('nav-blog', 'Pet blog');
+    pll_register_string('latest-offers', 'LATEST OFFERS');
+    pll_register_string('categories', 'CATEGORIES');
+    pll_register_string('best-sellers', 'BEST SELLERS');
+    pll_register_string('contact-us', 'Contact us');
+    pll_register_string('read-more', 'Read more');
+}
+
