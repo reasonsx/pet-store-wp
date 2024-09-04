@@ -23,21 +23,36 @@
         <h1>LATEST OFFERS</h1>
         <div class="offers">
         <?php
-        $the_query = new WP_Query(array(
-            'post_type' => 'card', // Replace 'offer' with your custom post type or 'post' for default posts
-            'posts_per_page' => 5   // Adjust the number of posts to display
-        )); ?>
+$the_query = new WP_Query(); ?>
 
-        <?php if ( have_posts() ) : ?>
-            <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
-            <div class="offer">
-                <img src="<?php echo esc_url(get_field('offer-image')); ?>" alt="<?php echo esc_attr(get_field('offer-title')); ?>">
-                <h2><?php echo esc_html(get_field('offer-title')); ?></h2>
-                <p><?php echo esc_html(get_field('offer-description')); ?></p>
+<?php if ( $the_query->have_posts() ) : ?>
+
+    <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+    <div class="offer">
+                <img src="<?php echo $offerImage ?>" alt="">
+                <h2><?php echo $offerTitle ?></h2>
+                <p><?php echo $offerDescription ?></p>
             </div>
-            <?php endwhile; ?>
-            <?php wp_reset_postdata(); ?>
-        <?php endif; ?>
+    <?php endwhile; ?>
+
+    <?php wp_reset_postdata(); ?>
+
+<?php endif; ?>
+            <div class="offer">
+                <img src="<?php echo $offerImage ?>" alt="">
+                <h2><?php echo $offerTitle ?></h2>
+                <p><?php echo $offerDescription ?></p>
+            </div>
+            <div class="offer">
+                <img src="<?php echo $offerImage ?>" alt="">
+                <h2><?php echo $offerTitle ?></h2>
+                <p><?php echo $offerDescription ?></p>
+            </div>
+            <div class="offer">
+                <img src="<?php echo $offerImage ?>" alt="">
+                <h2><?php echo $offerTitle ?></h2>
+                <p><?php echo $offerDescription ?></p>
+            </div>
         </div>
     </div>
     <div class="categories-container">
