@@ -2,9 +2,7 @@
 <?php $title1= get_field('title-1')?>
 <?php $title2= get_field('title-2')?>
 <?php $title3= get_field('title-3')?>
-<?php $offerImage= get_field('offer-image')?>
-<?php $offerTitle= get_field('offer-title')?>
-<?php $offerDescription= get_field('offer-description')?>
+
 <div class="hero-container">
     <div class="hero">
         <div class="hero-text">
@@ -25,7 +23,7 @@
         <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
         <div class="offer">
-            <img src="<?php echo esc_url(get_field('offer-image')); ?>" alt="">
+            <img src="<?php echo esc_url(get_field('offer-image')); ?>">
             <h2><?php echo esc_html(get_field('offer-title')); ?></h2>
             <p><?php echo esc_html(get_field('offer-description')); ?></p>
         </div>
