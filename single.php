@@ -14,7 +14,7 @@
         </div>
 
         <p class="blog-post__info">
-            <a href="#"><?php echo esc_html(get_the_date()); ?></a> by
+            <a href="#"><?php echo esc_html(get_the_date()); ?></a> <?php pll_e('by') ?>
             <?php
             $author_id = get_the_author_meta('ID');
             $author_url = get_author_posts_url($author_id);
