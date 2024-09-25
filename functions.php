@@ -51,25 +51,26 @@ function custom_meta_tags()
         // Blog post list page (home.php)
         if ($current_lang == 'da') {
             // Danish version
-            echo '<meta name="description" content="Læs vores seneste blogindlæg, der dækker en række emner. Hold dig informeret og opdateret!">';
+            echo '<meta name="description" content="Udforsk vores blog for de nyeste råd om kæledyrspleje, fodring, træning og meget mere. Hold dig opdateret med ekspertråd for glade og sunde kæledyr!">';
             echo '<meta name="keywords" content="blog, indlæg, artikler, nyheder">';
         } else {
             // English version
-            echo '<meta name="description" content="Read our latest blog posts covering a variety of topics. Stay informed and updated!">';
+            echo '<meta name="description" content="Explore our blog for the latest tips on pet care, feeding, training, and more. Stay informed with expert advice for happy and healthy pets!">';
             echo '<meta name="keywords" content="blog, posts, articles, news">';
         }
     } elseif (is_single()) {
-        // Individual blog post (single.php)
-        $post_title = esc_attr(get_the_title());
-        if ($current_lang == 'da') {
-            // Danish version
-            echo '<meta name="description" content="' . esc_attr(strip_tags(get_the_excerpt())) . '">';
-            echo '<meta name="keywords" content="blog, ' . $post_title . '">';
+        $post_title = esc_attr( get_the_title() );
+
+        if ( $current_lang == 'da' ) {
+            // Danish version of the meta description
+            echo '<meta name="description" content="Læs mere om ' . $post_title . ' i vores seneste blogindlæg. Opdag nyttige tips og tricks for at sikre, at dit kæledyr er glad og sund.">';
+            echo '<meta name="keywords" content="kæledyr, blog, ' . $post_title . '">';
         } else {
-            // English version
-            echo '<meta name="description" content="' . esc_attr(strip_tags(get_the_excerpt())) . '">';
-            echo '<meta name="keywords" content="blog, ' . $post_title . '">';
+            // English version of the meta description
+            echo '<meta name="description" content="Learn more about ' . $post_title . ' in our latest blog post. Discover useful tips and tricks to ensure your pet is happy and healthy.">';
+            echo '<meta name="keywords" content="pet, blog, ' . $post_title . '">';
         }
     }
 }
 add_action('wp_head', 'custom_meta_tags');
+
