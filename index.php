@@ -35,7 +35,7 @@
                     $cards->the_post(); ?>
                     <div class="offer">
                     <?php $offerImage = get_field('offer-image') ?>
-                        <img src="<?php echo esc_url(get_field('offer-image')["url"]); ?>" alt="<?php echo $offerImage["alt"]; ?>">
+                        <img src="<?php echo $offerImage ["url"]; ?>" alt="<?php echo $offerImage["alt"]; ?>">
                         <h2><?php echo esc_html(get_field('offer-title')); ?></h2>
                         <p><?php echo esc_html(get_field('offer-description')); ?></p>
                     </div>
