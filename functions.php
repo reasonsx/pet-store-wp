@@ -29,3 +29,45 @@ function plp_register_strings() {
     pll_register_string('go-back', 'Go back');
 }
 add_action('init', 'plp_register_strings');
+
+function custom_meta_tags() {
+    // Check the current language using Polylang
+    $current_lang = function_exists( 'pll_current_language' ) ? pll_current_language() : 'en'; // Default to English if no language is found
+
+    if ( is_front_page() ) {
+        // Home page (index.php)
+        if ( $current_lang == 'da' ) {
+            // Danish version
+            echo '<meta name="description" content="Velkommen til min hjemmeside. Vi tilbyder fantastisk indhold og blogindlæg.">';
+            echo '<meta name="keywords" content="hjem, blog, indhold">';
+        } else {
+            // English version
+            echo '<meta name="description" content="Welcome to My Website. We offer great content and blog posts.">';
+            echo '<meta name="keywords" content="home, blog, content">';
+        }
+    } elseif ( is_home() ) {
+        // Blog post list page (home.php)
+        if ( $current_lang == 'da' ) {
+            // Danish version
+            echo '<meta name="description" content="Læs vores seneste blogindlæg, der dækker en række emner. Hold dig informeret og opdateret!">';
+            echo '<meta name="keywords" content="blog, indlæg, artikler, nyheder">';
+        } else {
+            // English version
+            echo '<meta name="description" content="Read our latest blog posts covering a variety of topics. Stay informed and updated!">';
+            echo '<meta name="keywords" content="blog, posts, articles, news">';
+        }
+    } elseif ( is_single() ) {
+        // Individual blog post (single.php)
+        $post_title = esc_attr( get_the_title() );
+        if ( $current_lang == 'da' ) {
+            // Danish version
+            echo '<meta name="description" content="' . esc_attr( strip_tags( get_the_excerpt() ) ) . '">';
+            echo '<meta name="keywords" content="blog, ' . $post_title . '">';
+        } else {
+            // English version
+            echo '<meta name="description" content="' . esc_attr( strip_tags( get_the_excerpt() ) ) . '">';
+            echo '<meta name="keywords" content="blog, ' . $post_title . '">';
+        }
+    }
+}
+add_action( 'wp_head', 'custom_meta_tags' );
