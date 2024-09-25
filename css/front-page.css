@@ -22,7 +22,7 @@ h1 {
     color: #030104;
 }
 
-.nav{
+nav{
     display: flex;
     flex-direction: row;
     align-items: center;
