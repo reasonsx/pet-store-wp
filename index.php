@@ -59,14 +59,30 @@
     <div class="best-sellers-container">
         <h1><?php pll_e('BEST SELLERS') ?></h1>
         <div class="best-sellers">
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
+        <?php
+            $products = new WP_Query(array(
+                'post_type' => 'product',
+                'posts_per_page' => 4
+            )); ?>
+
+            <?php if ($products->have_posts()): ?>
+                <?php while ($products->have_posts()):
+                    $products->the_post(); ?>
+                    <div class="offer">
+                        <?php global $product; 
+                        $title = get_the_title();
+                        $price = $product->get_price_html();
+                        
+                        ?>
+                    <!-- <?php $offerImage = get_field('offer-image') ?> -->
+                        <!-- <img src="<?php echo $offerImage ["url"]; ?>" alt="<?php echo $offerImage["alt"]; ?>"> -->
+                        <h2><?php echo $title ?></h2>
+                        <p><?php echo $price ?></p>
+                    
+                    </div>
+                <?php endwhile; ?>
+                <?php wp_reset_postdata(); ?>
+            <?php endif; ?>
         </div>
     </div>
 </div>
