@@ -72,10 +72,12 @@
                         <?php global $product; 
                         $title = get_the_title();
                         $price = $product->get_price_html();
+                        $image_url = get_the_post_thumbnail_url(get_the_ID(), 'medium');
                         
                         ?>
-                    <!-- <?php $offerImage = get_field('offer-image') ?> -->
-                        <!-- <img src="<?php echo $offerImage ["url"]; ?>" alt="<?php echo $offerImage["alt"]; ?>"> -->
+                    <?php if ($image_url): ?>
+                        <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($title); ?>">
+                    <?php endif; ?>
                         <h2><?php echo $title ?></h2>
                         <p><?php echo $price ?></p>
                     
