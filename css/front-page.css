@@ -194,6 +194,27 @@ button svg{
     grid-template-rows: repeat(2, 1fr);    /* 2 rows */
     gap: 10px;
 }
+
+.best-seller {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    padding: 16px;
+    background-color: var(--orange);
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: var(--gray);
+    border-radius: 24px;
+}
+.best-seller img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
 .item {
     width: 278px;
     height: 278px;

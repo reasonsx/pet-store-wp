@@ -68,7 +68,7 @@
             <?php if ($products->have_posts()): ?>
                 <?php while ($products->have_posts()):
                     $products->the_post(); ?>
-                    <div class="offer">
+                    <div class="best-seller">
                         <?php global $product; 
                         $title = get_the_title();
                         $price = $product->get_price_html();
