@@ -81,8 +81,8 @@
                         <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($title); ?>">
                     <?php endif; ?>
                         <h2><?php echo $title ?></h2>
-                        <h4>Nutritions:<?php echo $nutrition?></h4>
-                        <h4>Brand:<?php echo $brand?></h4>
+                        <h4>Nutritions :<?php echo $nutrition?></h4>
+                        <h4>Brand: <?php echo $brand?></h4>
                         <p><?php echo $price ?></p>
                     
                     </div>
