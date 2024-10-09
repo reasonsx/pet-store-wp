@@ -73,7 +73,7 @@
                         $title = get_the_title();
                         $price = $product->get_price_html();
                         $image_url = get_the_post_thumbnail_url(get_the_ID(), 'medium');
-                        $nutricion = get_field('nutricion');
+                        $nutrition = get_field('nutrition');
                         $brand = get_field('brand_name');
                         
                         ?>
@@ -81,7 +81,7 @@
                         <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($title); ?>">
                     <?php endif; ?>
                         <h2><?php echo $title ?></h2>
-                        <h4>Nutritions:<?php echo $nutricion?></h4>
+                        <h4>Nutritions:<?php echo $nutrition?></h4>
                         <h4>Brand:<?php echo $brand?></h4>
                         <p><?php echo $price ?></p>
                     
