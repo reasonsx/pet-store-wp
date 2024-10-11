@@ -10,6 +10,7 @@
     flex-direction: row;
     align-items: center;
     margin-top: 50px;
+    margin-left: 30px;
     width: 60%;
     background-color: #f0f0f0;
     border-radius: 5px;
@@ -18,34 +19,9 @@
 }
 
 .woocommerce-cart .cart-collaterals .cart_totals table{
-    width: 40%;
     background-color: #f0f0f0;
     border-radius: 5px;
     box-shadow: 0px 0px 13px -3px rgba(71,71,71,0.32);
     padding: 20px;
-}
-
-.woocommerce-cart-form table.shop_table {
-    width: 100%;
-}
-
-.woocommerce-cart-form table.shop_table thead {
-    background-color: #f0f0f0;
-}
-
-.woocommerce-cart-form .actions {
-    text-align: right;
-    padding: 20px 0;
-}
-
-.woocommerce-cart-form .checkout-button {
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    border-radius: 5px;
-}
-
-.woocommerce-cart-form .checkout-button:hover {
-    background-color: #218838;
+    margin-right: 30px;
 }
