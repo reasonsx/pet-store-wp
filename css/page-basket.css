@@ -142,8 +142,8 @@
     padding: 15px 20px; 
     font-size: 17px; 
     font-weight: 600; 
-    text-decoration: none; /* Remove underline from button */
-    display: flex;
+    text-decoration: none; 
+    display: inline-block  ;
     justify-content: center;
     margin-top: 1rem;
 }
