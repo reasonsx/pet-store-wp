@@ -66,12 +66,12 @@
     background-color: #FB9529;
     color: #ffffff; 
     border-radius: 10px; 
-    padding: 10px 20px; 
-    font-size: 14px; 
+    padding: 20px 30px; 
+    font-size: 25px; 
     font-weight: 600; 
     text-decoration: none; /* Remove underline from button */
     display: inline-block; /* Display as inline block */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    transition: background-color 0.3s, #F2662B 0.3s; /* Smooth transition effect */
 }
 
 @media (max-width: 768px) {
