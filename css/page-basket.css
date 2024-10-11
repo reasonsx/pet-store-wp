@@ -1,4 +1,6 @@
 .woocommerce {
+    color: #000000; /* Typography color */
+    font-family: Poppins, sans-serif; /* Typography font */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
