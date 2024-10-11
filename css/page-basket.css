@@ -180,4 +180,10 @@ tbody {
         margin-top: 20px;
         box-sizing: border-box; /* Ensure padding and borders do not affect width */
     }
+
+    :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt {
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+    }
 }
