@@ -36,3 +36,7 @@
 .woocommerce .cart-collaterals h2, .woocommerce-page .cart-collaterals h2{
     margin: 20px;
 }
+
+.cart_totals{
+    width: 0%;
+}
