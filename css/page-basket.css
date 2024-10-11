@@ -112,7 +112,7 @@
     transition:   0.3s, color 0.3s; /* Smooth transition effect */
 }
 
-.woocommerce table.cart td.actions{
+.woocommerce-page table.cart td.actions{
     margin-top: 1rem;
 }
 
