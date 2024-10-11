@@ -54,6 +54,11 @@
     margin: 0; /* Ensure the table aligns with its container */
 }
 
+.woocommerce-cart .wc-proceed-to-checkout{
+    padding-top: 1rem;
+    padding-bottom: 0px;
+}
+
 @media (max-width: 768px) {
     .woocommerce {
         flex-direction: column; /* Stack elements vertically on smaller screens */
