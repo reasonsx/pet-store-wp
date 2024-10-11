@@ -4,8 +4,6 @@
 
 
 <div class="basket-container">
-    <h1 class="basket-title">Your Basket</h1>
-    
     <div class="basket-items">
         <!-- Basket items will be displayed here -->
         <?php
