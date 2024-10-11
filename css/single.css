@@ -293,14 +293,14 @@ body {
 
 .blog-post__info {
     font-size: 14px;
-    color: #FB9529;
+    color: #F2662B;
     margin-bottom: 25px;
 }
 
 .hashtag {
     display: flex;
     flex-direction: row;
-    color: #FB9529;
+    color: #F2662B;
     margin-right: 8px;
     text-transform: uppercase;
 }
@@ -319,13 +319,13 @@ p {
 }
 
 a {
-    color: #3498db;
+    color: #323232;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #2980b9;
+    color: #F2662B;
     text-decoration: underline;
 }
 
