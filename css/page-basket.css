@@ -83,8 +83,32 @@
     text-decoration: none; /* Remove underline from button */
     display: inline-block; /* Display as inline block */
     transition:   0.3s, color 0.3s; /* Smooth transition effect */
-    
 }
+
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button{
+    background-color: #FB9529;
+    color: #ffffff; 
+    border-radius: 10px; 
+    padding: 15px 20px; 
+    font-size: 17px; 
+    font-weight: 600; 
+    text-decoration: none; /* Remove underline from button */
+    display: inline-block; /* Display as inline block */
+}
+
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button:hover{
+    background-color: #F2662B;
+    color: #ffffff; 
+    border-radius: 10px; 
+    padding: 15px 20px; 
+    font-size: 17px; 
+    font-weight: 600; 
+    text-decoration: none; /* Remove underline from button */
+    display: inline-block; /* Display as inline block */
+    transition:   0.3s, color 0.3s; /* Smooth transition effect */
+}
+
+
 
 @media (max-width: 768px) {
     .woocommerce {
