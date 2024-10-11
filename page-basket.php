@@ -28,10 +28,6 @@
         }
         ?>
     </div>
-    
-    <div class="basket-footer">
-        <a href="#" class="checkout-button">Proceed to Checkout</a>
-    </div>
 </div>
 
 <?php
