@@ -12,7 +12,7 @@ function my_custom_theme_scripts()
     } elseif (is_single()) {
         wp_enqueue_style('single-style', get_template_directory_uri() . '/css/single.css');
     } elseif (is_page_basket()) {
-        wp_enqueue_style('page-basket-styles', get_template_directory_uri() . '/page-basket.css');
+        wp_enqueue_style('page-basket-styles', get_template_directory_uri() . '/css/page-basket.css');
     }
 }
 add_action('wp_enqueue_scripts', 'my_custom_theme_scripts');
