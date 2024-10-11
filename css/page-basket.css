@@ -1,3 +1,12 @@
+.woocommerce{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
 .woocommerce-cart-form{
     display: flex;
     flex-direction: row;
