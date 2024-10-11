@@ -135,43 +135,41 @@ li{
 }
 
 /* Comments container */
-/* Comments container */
 .comments {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
-    width: 800px;
+    margin-top: 20px;
+    width: 1160px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+}
+
+.commentlist{
+    width: 100%;
 }
 
 /* Individual comment styling */
 .comment {
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    background-color: #f9f9f9;
-    border-radius: 4px;
-    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #D9D9D9;
+    border-radius: 24px;
+    margin-bottom: 20px; /* Spacing between comments */
     width: 100%; /* Full width of the comments container */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 /* Comment author and metadata */
 .comment-author {
     font-weight: bold;
     font-size: 1.2em;
-    color: #333;
+    color: black;
 }
 
 .comment-meta {
-    font-size: 0.8em;
-    color: #999; /* Lighter color for meta information */
+    font-size: 0.9em;
+    color: #777; /* Lighter color for meta information */
     margin-bottom: 10px;
 }
 
@@ -179,53 +177,42 @@ li{
 .comment-content {
     font-size: 1em;
     line-height: 1.6;
-    color: #555;
+    color: black;
 }
 
 /* Reply link styling */
 .comment-reply-link {
     background-color: var(--orange);
-    color: #fff;
+    color: black;
     padding: 10px 20px;
     border: none;
-    border-radius: 20px;
+    border-radius: 50px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     cursor: pointer;
     display: inline-block;
     margin-top: 10px;
-    transition: background-color 0.3s ease;
 }
 
 .comment-reply-link:hover {
     background-color: darkorange;
 }
 
-/* Nested comments (replies) styling */
-.children {
-    border-left: 2px solid #ddd;
-    margin-left: 20px;
-    padding-left: 20px;
-    margin-top: 20px;
+.children{
+    border-top: 2px solid #000000;
 }
 
-/* Comment form styling */
+
 .comment-respond {
     margin-top: 40px;
     width: 100%;
     margin-bottom: 40px;
-    background-color: #fff;
-    padding: 15px;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
+
 
 .comment-form label {
     font-weight: bold;
-    color: #333;
-    display: block;
-    margin-bottom: 5px;
 }
 
 .comment-form input[type="text"],
@@ -234,18 +221,8 @@ li{
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    background-color: #f9f9f9;
-    font-size: 1em;
-    transition: border-color 0.3s ease;
-}
-
-.comment-form input[type="text"]:focus,
-.comment-form input[type="email"]:focus,
-.comment-form textarea:focus {
-    border-color: #FB9529;
-    outline: none;
 }
 
 .comment-form textarea {
@@ -254,16 +231,16 @@ li{
 
 .comment-form input[type="submit"] {
     background-color: var(--orange);
-    color: #fff;
+    color: black;
     padding: 10px 20px;
     border: none;
-    border-radius: 20px;
+    border-radius: 50px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     cursor: pointer;
     display: inline-block;
-    transition: background-color 0.3s ease;
+    margin-top: 10px;
 }
 
 .comment-form input[type="submit"]:hover {
