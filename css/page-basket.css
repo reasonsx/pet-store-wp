@@ -45,3 +45,15 @@
 .cart_totals{
     width: 0%;
 }
+
+.cart-subtotal{
+    width: 100%;
+}
+
+.woocommerce-shipping-totals.shipping {
+    width: 100%;
+}
+
+.order-total{
+    width: 100%;
+}
