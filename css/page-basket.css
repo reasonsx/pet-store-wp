@@ -15,6 +15,11 @@
     margin-right: 30px;
 }
 
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+width: none;
+float:left;
+}
+
 .woocommerce-cart .cart-collaterals .cart_totals {
     width: 30%; /* Adjust width for the cart total */
     background-color: #f9f9f9;
