@@ -135,17 +135,18 @@ li{
 }
 
 /* Comments container */
-/* Comments container */
 .comments {
-    margin-top: 40px;
-    width: 100%;
-    max-width: 1160px; /* Same width as the blog post container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 1160px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+}
+
+.commentlist{
+    width: 100%;
 }
 
 /* Individual comment styling */
@@ -153,58 +154,97 @@ li{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background-color: #fff; /* White background for comments */
-    border-radius: 12px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: #D9D9D9;
+    border-radius: 24px;
     margin-bottom: 20px; /* Spacing between comments */
-    width: 100%;
+    width: 100%; /* Full width of the comments container */
 }
 
-/* Comment author and date styling */
+/* Comment author and metadata */
 .comment-author {
     font-weight: bold;
-    margin-bottom: 10px;
-    color: #333; /* Dark text color for contrast */
+    font-size: 1.2em;
+    color: black;
 }
 
-.comment-date {
+.comment-meta {
     font-size: 0.9em;
-    color: #666;
+    color: #777; /* Lighter color for meta information */
     margin-bottom: 10px;
 }
 
-/* Comment content styling */
+/* Comment content */
 .comment-content {
     font-size: 1em;
     line-height: 1.6;
-    color: #333;
+    color: black;
 }
 
-/* Comment reply link styling */
+/* Reply link styling */
 .comment-reply-link {
-    font-size: 0.9em;
-    color: #0073aa; /* Matching WordPress style */
+    background-color: var(--orange);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
     margin-top: 10px;
 }
 
 .comment-reply-link:hover {
-    text-decoration: underline;
+    background-color: darkorange;
 }
 
-@media (max-width: 1200px) {
-    .comments {
-        width: 95%;
-    }
+.children{
+    border-top: 2px solid #000000;
 }
 
-@media (max-width: 600px) {
-    .comments {
-        padding: 10px;
-    }
-    .comment {
-        padding: 15px;
-    }
+
+.comment-respond {
+    margin-top: 40px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+.comment-form label {
+    font-weight: bold;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comment-form textarea {
+    height: 150px;
+}
+
+.comment-form input[type="submit"] {
+    background-color: var(--orange);
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.comment-form input[type="submit"]:hover {
+    background-color: darkorange;
 }
 
 
