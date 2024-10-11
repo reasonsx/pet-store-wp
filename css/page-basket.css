@@ -1,10 +1,10 @@
 .woocommerce {
     display: flex;
     flex-direction: row;
-    align-items: flex-start; /* Align items to the top */
-    justify-content: space-between; /* Use space-between for better spacing */
+    align-items: flex-start;
+    justify-content: space-between; 
     margin-top: 50px; /* Space from the top */
-    padding: 0 50px; /* Add horizontal padding to the container */
+    padding: 0 50px; /* Add padding to the sides */
 }
 
 .woocommerce-cart-form {
@@ -15,10 +15,10 @@
     justify-content: center;
     margin-right: 20px;
     padding: 20px;
-    border: 1px solid #ddd; /* Use a lighter border color for better aesthetics */
+    border: 1px solid #ddd; 
     border-radius: 10px;
-    background-color: #fff; /* Add a background color for better contrast */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    background-color: #fff; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .woocommerce .cart-collaterals,
@@ -27,10 +27,10 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    border: 1px solid #ddd; /* Light border color */
+    border: 1px solid #ddd; 
     border-radius: 10px;
-    background-color: #fff; /* Background for contrast */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fff; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .woocommerce-cart .cart-collaterals .cart_totals {
@@ -41,7 +41,8 @@
 .woocommerce .cart-collaterals h2,
 .woocommerce-page .cart-collaterals h2 {
     margin-bottom: 20px;
-    color: #333; /* Typography color */
+    color: #000000; /* Typography color */
+    font-family: Poppins, sans-serif; /* Typography font */
 }
 
 .cart_totals {
