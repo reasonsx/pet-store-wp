@@ -17,10 +17,10 @@
     justify-content: center;
     margin-right: 20px;
     padding: 20px;
-    border: 1px solid #ddd; 
+    border: 1px solid #F2662B; 
     border-radius: 10px;
     background-color: #fff; 
-    box-shadow: -3px 1px 30px -5px rgba(242,102,43,0.33);
+    box-shadow: -3px 1px 30px -5px rgba(30,30,30,0.33);
 }
 
 .woocommerce .cart-collaterals,
@@ -29,10 +29,10 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    border: 1px solid #ddd; 
+    border: 1px solid #F2662B; 
     border-radius: 10px;
     background-color: #fff; 
-    box-shadow: -3px 1px 30px -5px rgba(242,102,43,0.33);
+    box-shadow: -3px 1px 30px -5px rgba(30,30,30,0.33);
 }
 
 .woocommerce-cart .cart-collaterals .cart_totals {
