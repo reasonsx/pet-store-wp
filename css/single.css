@@ -282,7 +282,7 @@ body {
 
 .categories {
     display: inline-block;
-    background-color: #F2662B;
+    background-color: #FB9529;
     color: #fff;
     padding: 5px 10px;
     border-radius: 4px;
@@ -354,5 +354,5 @@ li {
 }
 
 .wp-block-heading{
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
