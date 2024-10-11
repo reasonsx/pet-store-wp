@@ -152,11 +152,13 @@
 .woocommerce-cart-form .product-name a {
     text-decoration: none; /* Remove underline from product text */
     color: inherit; /* Inherit color to maintain text uniformity */
+    font-weight: 700;
 }
 
 .shipping-calculator-button{
     text-decoration: none; /* Remove underline from product text */
     color: inherit; /* Inherit color to maintain text uniformity */
+    font-weight: 700;
 }
 
 tbody {
