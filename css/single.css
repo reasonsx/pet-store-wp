@@ -140,13 +140,12 @@ li{
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
-    width: 1160px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .commentlist{
-    width: 50%;
+    width: 60%;
 }
 
 /* Individual comment styling */
