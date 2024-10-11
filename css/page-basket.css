@@ -166,69 +166,17 @@ tbody {
     color: black;
 }
 
-/* Styles for screens smaller than 480px, like mobile devices */
-@media screen and (max-width: 480px) {
+@media (max-width: 768px) {
     .woocommerce {
-        flex-direction: column;
-        padding: 0 20px; /* Reduce side padding */
-        align-items: center; /* Center align items for small screens */
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        padding: 0 20px; /* Adjust padding for smaller screens */
     }
 
-    .woocommerce-cart-form {
-        margin-right: 0; /* Remove right margin */
-        padding: 10px; /* Reduce padding */
-        width: 100%; /* Take full width */
-    }
-
+    .woocommerce-cart-form, 
     .woocommerce .cart-collaterals,
     .woocommerce-page .cart-collaterals {
-        width: 100%; /* Take full width */
-        margin-top: 20px; /* Add margin to separate from cart form */
-    }
-
-    .cart_totals table {
-        font-size: 14px; /* Reduce font size for better fit */
-    }
-
-    :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt,
-    :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button {
-        padding: 10px 15px; /* Adjust padding */
-        font-size: 15px; /* Reduce font size */
-        width: 100%; /* Buttons take full width of container */
-        margin: 5px 0; /* Add margin between buttons */
-    }
-
-    .woocommerce-page table.cart td.actions .coupon {
-        flex-direction: column; /* Stack coupon inputs and buttons */
-        align-items: stretch; /* Stretch items to align properly */
-    }
-
-    .woocommerce-cart table.cart td.actions .coupon .input-text {
-        margin-right: 0; /* Remove right margin */
-        margin-bottom: 10px; /* Add space below input field */
-        padding: 8px; /* Adjust padding for smaller screens */
-    }
-
-    .woocommerce-cart .wc-proceed-to-checkout {
-        padding-top: 10px; /* Adjust padding */
-    }
-
-    .woocommerce-table {
-        margin-top: 1rem; /* Maintain top margin */
-        flex-direction: column; /* Stack table items */
-        align-items: stretch; /* Ensure full width */
-    }
-
-    .woocommerce-cart-form .product-name a {
-        text-decoration: none;
-        color: inherit;
-        font-weight: bold;
-    }
-
-    .shipping-calculator-button {
-        text-decoration: none;
-        color: inherit;
-        font-weight: 700;
+        width: 100%; /* Use full width on small screens */
+        margin-right: 0; /* Remove margins when stacked */
+        box-sizing: border-box; /* Ensure padding and borders do not affect width */
     }
 }
-
