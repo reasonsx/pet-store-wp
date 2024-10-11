@@ -26,7 +26,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 20px;
     margin-right: 250px;
     padding: 20px;
     border: 1px solid black;
@@ -34,5 +33,5 @@
 }
 
 .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
-    margin: 20px;
+    margin: 0px;
 }
