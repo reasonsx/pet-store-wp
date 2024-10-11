@@ -17,9 +17,7 @@
                     <div class="item-description">
                         <?php the_content(); ?>
                     </div>
-                    <div class="item-price">
-                        Price: $<?php echo get_post_meta(get_the_ID(), 'price', true); ?>
-                    </div>
+                    
                 </div>
                 <?php
             }
@@ -28,6 +26,7 @@
         }
         ?>
     </div>
+
 </div>
 
 <?php
