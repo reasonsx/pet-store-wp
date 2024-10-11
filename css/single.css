@@ -34,7 +34,6 @@ li a{
     text-decoration: none;
     color: black;
     font-size: 20px;
-    margin: 10px;
 }
 li{
     margin: 10px;
@@ -332,7 +331,6 @@ img {
     max-width: 100%;
     height: auto;
     border-radius: 4px;
-    margin-bottom: 20px;
 }
 
 blockquote {
