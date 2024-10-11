@@ -1,5 +1,5 @@
 
-.woocommerce .woocommerce-cart-form {
+.woocommerce-notices-wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
