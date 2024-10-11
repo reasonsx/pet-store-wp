@@ -30,6 +30,13 @@
     border-radius: 5px;
 }
 
-.woocommerce-cart-form .checkout-button:hover {
-    background-color: #218838;
+
+
+
+.wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
