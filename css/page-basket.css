@@ -6,39 +6,3 @@
     margin-top: 50px; /* Add space from top */
 }
 
-.woocommerce .woocommerce-cart-form {
-    width: 65%; /* Adjust width for the cart */
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0px 0px 13px -3px rgba(71, 71, 71, 0.32);
-    padding: 20px;
-    margin-right: 30px;
-}
-
-.woocommerce .cart-collaterals .cart_totals,.woocommerce-page .cart-collaterals .cart_totals {
-    float: right;
-    width: 0%;
-}
-.woocommerce-cart .cart-collaterals .cart_totals {
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0px 0px 13px -3px rgba(71, 71, 71, 0.32);
-    padding: 20px;
-    margin-left: 30px; /* Optional: adds space between totals and cart */
-    position: sticky; /* Keeps the totals box in view */
-    top: 20px; /* Sticky starts from 20px top */
-}
-
-.woocommerce-cart .cart-collaterals .cart_totals h2 {
-    font-size: 1.8em;
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.woocommerce-cart .cart-collaterals .cart_totals table {
-    width: 100%;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-}
