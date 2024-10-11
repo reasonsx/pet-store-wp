@@ -11,7 +11,7 @@ function my_custom_theme_scripts()
         wp_enqueue_style('home-style', get_template_directory_uri() . '/css/home.css');
     } elseif (is_single()) {
         wp_enqueue_style('single-style', get_template_directory_uri() . '/css/single.css');
-    } elseif (is_page('basket')) {
+    } elseif (is_page()) {
         wp_enqueue_style('page-basket-styles', get_template_directory_uri() . '/page-basket.css');
     }
 }
