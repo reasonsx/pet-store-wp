@@ -6,3 +6,28 @@
     margin-top: 50px; /* Add space from top */
 }
 
+.woocommerce-cart-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+    margin-right: 20px;
+}
