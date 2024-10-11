@@ -20,7 +20,7 @@
     border: 1px solid #ddd; 
     border-radius: 10px;
     background-color: #fff; 
-    box-shadow: 0 2px 8px #F2662B; 
+    box-shadow: -3px 1px 30px -5px rgba(242,102,43,0.56);
 }
 
 .woocommerce .cart-collaterals,
@@ -32,7 +32,7 @@
     border: 1px solid #ddd; 
     border-radius: 10px;
     background-color: #fff; 
-    box-shadow: 0 2px 8px #F2662B; 
+    box-shadow: -3px 1px 30px -5px rgba(242,102,43,0.56);
 }
 
 .woocommerce-cart .cart-collaterals .cart_totals {
