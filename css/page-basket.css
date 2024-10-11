@@ -61,16 +61,16 @@
     margin: 0px;
 }
 
-.woocommerce-cart .wc-proceed-to-checkout{
+.woocommerce-cart .wc-proceed-to-checkout {
     padding-top: 1rem;
     padding-bottom: 0px;
 }
 
-.woocommerce-cart table.cart td.actions .coupon .input-text{
+.woocommerce-cart table.cart td.actions .coupon .input-text {
     padding: 10px;
 }
 
-:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt{
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt {
     background-color: #FB9529;
     color: #ffffff; 
     border-radius: 10px; 
@@ -81,7 +81,7 @@
     display: inline-block; /* Display as inline block */
 }
 
-:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt:hover{
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt:hover {
     background-color: #F2662B;
     color: #ffffff; 
     border-radius: 10px; 
@@ -90,10 +90,10 @@
     font-weight: 600; 
     text-decoration: none; /* Remove underline from button */
     display: inline-block; /* Display as inline block */
-    transition:   0.3s, color 0.3s; /* Smooth transition effect */
+    transition: 0.3s, color 0.3s; /* Smooth transition effect */
 }
 
-:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button{
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button {
     background-color: #FB9529;
     color: #ffffff; 
     border-radius: 10px; 
@@ -104,7 +104,7 @@
     display: inline-block; /* Display as inline block */
 }
 
-:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button:hover{
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button:hover {
     background-color: #F2662B;
     color: #ffffff; 
     border-radius: 10px; 
@@ -113,29 +113,30 @@
     font-weight: 600; 
     text-decoration: none; /* Remove underline from button */
     display: inline-block; /* Display as inline block */
-    transition:   0.3s, color 0.3s; /* Smooth transition effect */
+    transition: 0.3s, color 0.3s; /* Smooth transition effect */
 }
 
-.woocommerce table.shop_table{
+.woocommerce table.shop_table {
     margin-top: 1rem;
     flex: flex;
     justify-content: center;
-
 }
+
 .woocommerce-page table.cart td.actions .coupon {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
 }
 
-.woocommerce-cart table.cart td.actions .coupon .input-text{
+.woocommerce-cart table.cart td.actions .coupon .input-text {
     padding-right: 2px;
     padding-left: 2px;
     margin-right: 10px;
     border-radius: 10px;
 }
 
-:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button:disabled, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button:disabled[disabled]{
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button:disabled, 
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button:disabled[disabled] {
     background-color: #D3D3D3;
     color: #ffffff; 
     border-radius: 10px; 
@@ -143,12 +144,17 @@
     font-size: 17px; 
     font-weight: 600; 
     text-decoration: none; 
-    display: inline-block  ;
+    display: inline-block;
     justify-content: center;
     margin-top: 1rem;
 }
 
-tbody{
+.woocommerce-cart-form .product-name a {
+    text-decoration: none; /* Remove underline from product text */
+    color: inherit; /* Inherit color to maintain text uniformity */
+}
+
+tbody {
     text-decoration: none;
     color: black;
 }
