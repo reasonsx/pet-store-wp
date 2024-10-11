@@ -277,12 +277,12 @@ body {
     font-size: 32px;
     font-weight: bold;
     margin-bottom: 15px;
-    color: #2c3e50;
+    color: #000000;
 }
 
 .categories {
     display: inline-block;
-    background-color: #3498db;
+    background-color: #F2662B;
     color: #fff;
     padding: 5px 10px;
     border-radius: 4px;
@@ -293,14 +293,14 @@ body {
 
 .blog-post__info {
     font-size: 14px;
-    color: #7f8c8d;
+    color: #FB9529;
     margin-bottom: 25px;
 }
 
 .hashtag {
     display: flex;
     flex-direction: row;
-    color: #3498db;
+    color: #FB9529;
     margin-right: 8px;
     text-transform: uppercase;
 }
@@ -350,5 +350,9 @@ ul, ol {
 }
 
 li {
+    margin-bottom: 10px;
+}
+
+.wp-block-heading{
     margin-bottom: 10px;
 }
