@@ -298,7 +298,8 @@ body {
 }
 
 .hashtag {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
     color: #3498db;
     margin-right: 8px;
     text-transform: uppercase;
