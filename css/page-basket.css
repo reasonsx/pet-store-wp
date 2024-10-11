@@ -22,6 +22,7 @@
 }
 
 .woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals{
+    width: 70%;
     display: flex;
     flex-direction: column;
     margin: 20px;
