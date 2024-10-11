@@ -32,7 +32,7 @@
 
 
 
-.woocommerce-cart .wc-proceed-to-checkout a.checkout-button{
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt{
     background-color: #28a745;
     color: white;
     padding: 10px 20px;
