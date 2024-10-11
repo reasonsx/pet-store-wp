@@ -33,3 +33,6 @@
     border-radius: 10px;
 }
 
+.woocommerce .cart-collaterals h2, .woocommerce-page .cart-collaterals h2{
+    margin: 20px;
+}
