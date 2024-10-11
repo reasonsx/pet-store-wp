@@ -1,24 +1,71 @@
-.woocommerce{
+.woocommerce {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start; /* Align items to the top */
     justify-content: space-between;
+    margin-top: 50px; /* Add space from top */
 }
 
 .woocommerce .woocommerce-cart-form {
-    margin-left: 30px;
-    width: 60%;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    box-shadow: 0px 0px 13px -3px rgba(71,71,71,0.32);
+    width: 65%; /* Adjust width for the cart */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px -3px rgba(71, 71, 71, 0.32);
     padding: 20px;
+    margin-right: 30px;
 }
 
-.woocommerce-cart .cart-collaterals .cart_totals table{
-    margin-right: 30px;
-    width: 30%;
-    background-color: #f0f0f0;
-    border-radius: 5px;
-    box-shadow: 0px 0px 13px -3px rgba(71,71,71,0.32);
+.woocommerce-cart .cart-collaterals .cart_totals {
+    width: 30%; /* Adjust width for the cart total */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px -3px rgba(71, 71, 71, 0.32);
     padding: 20px;
+    margin-left: 30px; /* Optional: adds space between totals and cart */
+    position: sticky; /* Keeps the totals box in view */
+    top: 20px; /* Sticky starts from 20px top */
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals table {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals table th, 
+.woocommerce-cart .cart-collaterals .cart_totals table td {
+    padding: 10px;
+    text-align: left;
+    font-size: 1em;
+    color: #555;
+}
+
+.woocommerce-cart .cart-collaterals .cart_totals table td {
+    font-weight: bold;
+}
+
+.woocommerce-cart .cart-collaterals .checkout-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.woocommerce-cart .cart-collaterals .checkout-button:hover {
+    background-color: #218838;
 }
