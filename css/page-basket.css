@@ -24,7 +24,6 @@
 .woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals{
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 20px;
     justify-content: center;
     margin-right: 250px;
