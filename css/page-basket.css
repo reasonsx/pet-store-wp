@@ -24,7 +24,6 @@
 .woocommerce .cart-collaterals, .woocommerce-page .cart-collaterals{
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 20px;
     justify-content: center;
     margin-right: 250px;
@@ -32,7 +31,11 @@
     border: 1px solid black;
     border-radius: 10px;
     width: 30%;
+}
 
+.woocommerce-cart .cart-collaterals .cart_totals table{
+    width: 100%;
+    margin: 20px;
 }
 
 .woocommerce .cart-collaterals h2, .woocommerce-page .cart-collaterals h2{
