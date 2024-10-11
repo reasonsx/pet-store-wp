@@ -116,14 +116,17 @@
     transition:   0.3s, color 0.3s; /* Smooth transition effect */
 }
 
-.woocommerce-page table.cart td.actions{
-    margin-top: 1rem;
-}
-
 .woocommerce table.shop_table{
     margin-top: 1rem;
     flex: flex;
     justify-content: center;
+
+}
+.woocommerce-page table.cart td.actions .coupon {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
 }
 
 
