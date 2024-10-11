@@ -46,14 +46,6 @@
     width: 0%;
 }
 
-.cart-subtotal{
-    width: 100%;
-}
-
-.woocommerce-shipping-totals.shipping {
-    width: 100%;
-}
-
-.order-total{
+.cart_totals table{
     width: 100%;
 }
