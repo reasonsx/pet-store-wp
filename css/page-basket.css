@@ -1,5 +1,4 @@
-
-.woocommerce-notices-wrapper {
+.woocommerce .woocommerce-cart-form {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -30,12 +29,6 @@
     border-radius: 5px;
 }
 
-
-
-:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt{
-    background-color: #28a745;
-    color: white;
-    padding: 10px 20px;
-    text-transform: uppercase;
-    border-radius: 5px;
+.woocommerce-cart-form .checkout-button:hover {
+    background-color: #218838;
 }
