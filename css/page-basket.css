@@ -177,6 +177,7 @@ tbody {
     .woocommerce-page .cart-collaterals {
         width: 100%; /* Use full width on small screens */
         margin-right: 0; /* Remove margins when stacked */
+        margin-top: 20px;
         box-sizing: border-box; /* Ensure padding and borders do not affect width */
     }
 }
