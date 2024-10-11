@@ -66,6 +66,10 @@
     padding-bottom: 0px;
 }
 
+.woocommerce-cart table.cart td.actions .coupon .input-text{
+    padding: 10px;
+}
+
 :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.alt{
     background-color: #FB9529;
     color: #ffffff; 
@@ -114,6 +118,12 @@
 
 .woocommerce-page table.cart td.actions{
     margin-top: 1rem;
+}
+
+.woocommerce table.shop_table{
+    margin-top: 1rem;
+    flex: flex;
+    justify-content: center;
 }
 
 
