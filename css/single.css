@@ -159,8 +159,8 @@ li{
     align-items: flex-start; /* Align text */
     padding: 20px;
     margin-bottom: 20px;
-    width: 100%; /* Full width of the comments container */
-    background-color: #f9f9f9; /* Softer background for individual comments */
+    /*width: 100%; Full width of the comments container */
+    background-color: #f1f1f1; /* Softer background for individual comments */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
 }
@@ -348,7 +348,7 @@ blockquote {
 
 ul, ol {
     margin: 20px 0;
-    padding-left: 40px;
+    padding-left: 0px;
 }
 
 li {
