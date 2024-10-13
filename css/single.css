@@ -357,3 +357,115 @@ li {
 .wp-block-heading{
     margin-bottom: 15px;
 }
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    li a {
+        font-size: 18px;
+        margin: 5px 0;
+    }
+
+    .blog-post {
+        width: 90%;
+    }
+
+    .dog-svg h2 {
+        font-size: 22px;
+    }
+
+    .hashtag h6 {
+        font-size: 16px;
+    }
+
+    .introduction-container {
+        flex-direction: column;
+    }
+
+    .text-introduction {
+        margin-left: 0;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .boxes-essential-care {
+        flex-direction: column;
+    }
+
+    .veterinary {
+        margin: 20px auto;
+    }
+
+    .boxes-necessary-investments, .text-conclusion {
+        flex-direction: column;
+    }
+
+    .title-conclusion {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .comments {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .comment {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .comment-author {
+        font-size: 1.1em;
+    }
+
+    .comment-meta {
+        font-size: 0.8em;
+    }
+
+    .comment-content {
+        font-size: 0.95em;
+    }
+
+    .comment-reply-link {
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+
+    .comment-form input[type="text"],
+    .comment-form input[type="email"],
+    .comment-form textarea {
+        max-width: 100%;
+    }
+
+    .comment-form input[type="submit"] {
+        padding: 8px 25px;
+    }
+
+    .blog-post__title {
+        font-size: 28px;
+    }
+
+    .categories {
+        font-size: 12px;
+    }
+
+    .blog-post__info {
+        font-size: 12px;
+    }
+
+    .text-introduction, p, blockquote {
+        font-size: 14px;
+    }
+
+    blockquote {
+        padding: 10px 20px;
+    }
+}
