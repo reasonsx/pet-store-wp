@@ -136,12 +136,12 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 40px auto; /* Center the container with top-bottom spacing */
+    margin: 40px auto; 
     padding: 20px;
-    background-color: #fff; /* White background */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Light box shadow */
-    border-radius: 8px; /* Rounded corners for a modern look */
-    width: 80%; /* Adjust width as needed */
+    background-color: #fff; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    border-radius: 8px;
+    width: 80%; /* Width of the comments container */
     max-width: 1200px; /* Ensure it doesn't exceed a max width */
 }
 
@@ -154,13 +154,13 @@ li {
 .comment {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align text */
+    align-items: flex-start; 
     padding: 20px;
     margin-bottom: 20px;
     /*width: 100%; Full width of the comments container */
-    background-color: #f1f1f1; /* Softer background for individual comments */
+    background-color: #f1f1f1; 
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow for depth */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); 
 }
 
 /* Comment author and metadata */
