@@ -5,25 +5,44 @@ Description: CMS + DM Project
 Version: 1.0
 */
 
-body {
-    /* background-color: green; */
+:root {
+    --orange: #FB9529;
 }
 
-ul{
-    display : flex;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav {
+    display: flex;
     flex-direction: row;
-    justify-content : space-between;
-    align-items : center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(217, 217, 217, 0.4);
+    width: 100%;
+    z-index: 1;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     list-style-type: none;
 }
-li a{
+
+li a {
     text-decoration: none;
     color: black;
     font-size: 20px;
     margin: 10px;
 }
-li{
-    margin: 10px;
 
+li {
+    margin: 10px;
 }
+
 

@@ -1,7 +1,7 @@
 <?php
 function my_custom_theme_scripts()
 {
-    wp_enqueue_style('main-style', get_template_directory_uri() . '/css/style.css');
+    wp_enqueue_style('main-style', get_template_directory_uri() . 'style.css');
 
     if (is_404()) {
         wp_enqueue_style('404-style', get_template_directory_uri() . '/css/404.css');
