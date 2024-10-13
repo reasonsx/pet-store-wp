@@ -189,7 +189,7 @@ li{
 /* Reply link styling */
 .comment-reply-link {
     background-color: var(--orange);
-    color: #fff; /* White text to stand out */
+    color: #fff; 
     padding: 10px 20px;
     border: none;
     border-radius: 50px;
@@ -202,13 +202,14 @@ li{
 }
 
 .comment-reply-link:hover {
-    background-color: #e07b1e; /* Slightly darker orange for hover */
+    background-color: #e07b1e; 
+    color: #fff; 
+    text-decoration: none;
 }
 
 /* Comment Form Styling */
 .comment-respond {
     margin-top: 40px;
-    width: 100%;
 }
 
 .comment-form label {
