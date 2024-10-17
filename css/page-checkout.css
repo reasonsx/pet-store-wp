@@ -7,6 +7,14 @@ form{
     box-shadow: -3px 1px 30px -5px rgba(30,30,30,0.33);
 }
 
-body{
-    background-color: aqua;
+
+:where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button.alt{
+    background-color: #FB9529;
+    color: #ffffff; 
+    border-radius: 10px; 
+    padding: 15px 20px; 
+    font-size: 17px; 
+    font-weight: 600; 
+    text-decoration: none; /* Remove underline from button */
+    display: inline-block; /* Display as inline block */
 }
