@@ -1,4 +1,4 @@
-.checkout.woocommerce-checkout{
+.checkout{
     display: flex;
     margin-right: 20px;
     border: 1px solid #dedede; 
