@@ -1,3 +1,14 @@
 body{
     background-color: aqua;
 }
+
+.woocommerce{
+    display: flex;
+    flex-direction: column;
+}
+
+.woocommerce-MyAccount-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
