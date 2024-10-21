@@ -20,6 +20,14 @@
     margin-right: 20px;
 }
 
+.woocommerce .col2-set, .woocommerce-page .col2-set {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #F2662B;
+}
+
 .woocommerce-checkout-review-order {
     flex: 1;
     padding: 20px;
