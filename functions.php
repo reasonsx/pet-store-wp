@@ -13,7 +13,7 @@ function my_custom_theme_scripts()
         wp_enqueue_style('single-style', get_template_directory_uri() . '/css/single.css');
     } elseif (is_page()) {
         wp_enqueue_style('page-basket-styles', get_template_directory_uri() . '/css/page-basket.css');
-    } elseif (is_page()) {
+    } elseif (is_page('checkout')) { // Correctly target the checkout page
         wp_enqueue_style('page-checkout-styles', get_template_directory_uri() . '/css/page-checkout.css');
     } elseif (is_page()) {
         wp_enqueue_style('page-my-account-styles', get_template_directory_uri() . '/css/page-my-account.css');
