@@ -20,6 +20,7 @@ div#customer_details {
     background-color: none !important;
     border: none !important;
     box-shadow: none !important;
+    padding: none !important;
 }
 .form-row.place-order {
     display: flex;
