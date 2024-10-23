@@ -21,6 +21,14 @@ div#customer_details {
     border: none !important;
     box-shadow: none !important;
 }
+.form-row.place-order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div#order_review {
+    padding: none;
+}
 .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
     width: 100% !important;
     background-color: none !important;
