@@ -22,6 +22,7 @@
     background-color: #fff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center align product text */
+    width: 100%; /* Ensure each product takes up full width */
 }
 
 /* Product image */
