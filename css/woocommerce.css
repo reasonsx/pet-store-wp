@@ -1,7 +1,42 @@
-body{
-    background-color: aqua;
-}
-
 .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) #respond input#submit, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button {
     background-color: #FB9529;
+}
+
+/* General container for products */
+.woocommerce ul.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Space between products */
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+/* Each product item */
+.woocommerce ul.products li.product {
+    width: 30%; /* Set 3 products per row; adjust this value as needed */
+    margin-bottom: 30px; /* Space between product rows */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center; /* Center align product text */
+}
+
+/* Hover effect for each product */
+.woocommerce ul.products li.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Product image */
+.woocommerce ul.products li.product img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    transition: transform 0.3s ease;
 }
