@@ -10,9 +10,8 @@
     margin: 0 auto;
     padding: 0;
     list-style: none;
-    width: 1160px;
-    justify-content: center;
-    align-items: center;
+    max-width: 1200px; /* Make the container flexible */
+    width: 100%; /* Ensure it fills available space */
 }
 
 /* Each product item */
