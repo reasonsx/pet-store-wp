@@ -2,10 +2,11 @@
     background-color: #FB9529;
 }
 
+/* General container for products */
 .woocommerce ul.products {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; /* Proper spacing between products */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 products per row */
+    grid-gap: 30px; /* Space between products */
     margin: 0 auto;
     padding: 0;
     list-style: none;
@@ -15,8 +16,6 @@
 
 /* Each product item */
 .woocommerce ul.products li.product {
-    width: 31%; /* Adjusted width for 3 products per row */
-    margin-bottom: 30px; /* Space between product rows */
     padding: 15px;
     border: 1px solid #ddd;
     border-radius: 10px;
