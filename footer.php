@@ -8,8 +8,8 @@
 <style>
 /* Footer Styling */
 .pet-store-footer {
-  background-color: #1a1a1a; /* Dark background for contrast */
-  color: #f9f9f9; /* Light text color for readability */
+  background-color: #f9f9f9;
+  color: #1a1a1a;
   font-family: 'Arial', sans-serif; /* Font styling */
 }
 
