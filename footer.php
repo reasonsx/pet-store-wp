@@ -10,7 +10,6 @@
 .pet-store-footer {
   background-color: #1a1a1a; /* Dark background for contrast */
   color: #f9f9f9; /* Light text color for readability */
-  padding: 40px 0; /* Vertical padding for spacing */
   font-family: 'Arial', sans-serif; /* Font styling */
 }
 
