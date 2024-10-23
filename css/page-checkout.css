@@ -32,6 +32,7 @@ div#customer_details {
 .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
     width: 100% !important;
     background-color: none !important;
+    border: none !important;
     box-shadow: none !important;
 }
 .woocommerce-checkout form.checkout {
@@ -42,9 +43,7 @@ div#customer_details {
     background-color: #fff;
     box-shadow: -3px 1px 30px -5px rgba(30,30,30,0.33);
 }
-.woocommerce-shipping-fields {
-    border: 0px;
-}
+
 .woocommerce-checkout-review-order {
     flex: 1;
     /* padding: 20px; */
