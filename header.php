@@ -18,6 +18,20 @@
             <li><a href="<?php echo home_url('/blog'); ?>">Pet blog</a></li>
             <?php pll_the_languages(); ?>
         </ul>
+        <div class="language-dropdown">
+    <button class="dropdown-btn">Select Language</button>
+    <div class="dropdown-content">
+        <?php
+        $languages = pll_the_languages(array('raw' => 1)); // Get languages as an array
+
+        foreach ($languages as $language) :
+        ?>
+            <a href="<?php echo esc_url($language['url']); ?>">
+                <?php echo esc_html($language['name']); ?>
+            </a>
+        <?php endforeach; ?>
+    </div>
+</div>
         <div class="cart">
 
         </div>
