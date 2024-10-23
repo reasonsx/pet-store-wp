@@ -10,7 +10,9 @@
     font-weight: bold;
 
 }
-
+.woocommerce ul.products::before {
+    display: none !important;
+}
 /* General container for products */
 .woocommerce ul.products {
     display: grid;
