@@ -8,7 +8,7 @@
 <style>
 /* Footer Styling */
 .pet-store-footer {
-  background-color: #f9f9f9;
+  background-color: rgba(255,255,255,0);
   color: #1a1a1a;
   font-family: 'Arial', sans-serif;
 }
