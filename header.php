@@ -29,7 +29,7 @@
                         if ($language['slug'] == 'en') {
                             // UK flag SVG for English
                             echo '<a href="' . esc_url($language['url']) . '">
-                                    <svg width="24" height="12" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg width="24" height="16" viewBox="0 0 1200 600" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_20_32)">
                                             <mask id="mask0_20_32" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="600">
                                                 <path d="M0 0V600H1200V0H0Z" fill="white"/>
@@ -61,7 +61,7 @@
                         } elseif ($language['slug'] == 'da') {
                             // Danish flag SVG for Danish
                             echo '<a href="' . esc_url($language['url']) . '">
-                                    <svg width="24" height="18" viewBox="0 0 37 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <svg width="24" height="16" viewBox="0 0 37 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_20_29)">
                                             <path d="M0 0H37V28H0V0Z" fill="#C8102E"/>
                                             <path d="M0 14H37ZM14 0V28Z" fill="black"/>
@@ -140,16 +140,15 @@
         }
 
         /* Language Switcher Styling */
-        .language-switcher img,
         .language-switcher svg {
             width: 24px;
-            height: auto;
-            margin-right: 10px;
+            height: 16px; /* Same height for both flags */
             cursor: pointer;
         }
 
         .language-switcher a {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
         }
 
         /* Responsive layout for mobile */
