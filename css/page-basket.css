@@ -6,7 +6,6 @@
     align-items: center;
     justify-content: space-between; 
     margin-top: 50px; /* Space from the top */
-    padding: 0 50px; /* Add padding to the sides */
 }
 div#customer_details {
     display: flex;
@@ -15,10 +14,6 @@ div#customer_details {
     justify-content: center;
     margin-top: 20px;
     padding: 20px;
-    border: 1px solid #dedede; 
-    border-radius: 10px;
-    background-color: #fff; 
-    box-shadow: -3px 1px 30px -5px rgba(30,30,30,0.33);
 }
 
 .woocommerce-cart-form {
