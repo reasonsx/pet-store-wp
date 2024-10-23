@@ -104,6 +104,7 @@ li{
     height: 200px;
     object-fit: cover;
     margin-right: 20px;
+    border-radius: 10px;
 }
 .post-text{
     width: 100%;
