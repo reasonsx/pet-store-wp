@@ -49,5 +49,48 @@
 
 .page-title{
     margin: 10px 0 0 10px;
-    
+
+}
+
+.woocommerce .woocommerce-result-count, .woocommerce-page .woocommerce-result-count{
+    margin-left: 10px;
+}
+
+
+/* General styling for the sorting form */
+.woocommerce-ordering {
+    display: flex; /* Use flexbox for layout */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Center vertically */
+    margin-bottom: 30px; /* Space below the sorting form */
+}
+
+/* Styling the select dropdown */
+.woocommerce-ordering select {
+    font-size: 14px; /* Font size */
+    padding: 10px 15px; /* Padding for select */
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* Background color */
+    color: #333; /* Text color */
+    cursor: pointer; /* Pointer on hover */
+    transition: border-color 0.3s; /* Transition for border color */
+    margin-right: 20px; /* Space between dropdown and any other elements */
+}
+
+/* Change border color on focus */
+.woocommerce-ordering select:focus {
+    border-color: #FB9529; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Optional: Style for hidden inputs (not visible, but good for maintenance) */
+.woocommerce-ordering input[type="hidden"] {
+    display: none; /* Hide hidden inputs */
+}
+
+/* Style for sorting label (if needed) */
+.woocommerce-ordering label {
+    margin-right: 10px; /* Space between label and dropdown */
+    font-weight: bold; /* Bold label */
 }
