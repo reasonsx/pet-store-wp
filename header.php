@@ -11,7 +11,7 @@
 <body <?php body_class(); ?>>
     <nav>
         <!-- Logo -->
-        <div class="logo">LOGO</div>
+        <div class="logo">Pet Store</div>
 
         <!-- Navigation Menu -->
         <ul>
