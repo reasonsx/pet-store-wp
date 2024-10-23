@@ -133,7 +133,6 @@
 .woocommerce div.product form.cart{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li {
