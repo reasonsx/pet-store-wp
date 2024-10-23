@@ -1,3 +1,7 @@
 body{
     background-color: aqua;
 }
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button{
+    background-color: #FB9529;
+}
