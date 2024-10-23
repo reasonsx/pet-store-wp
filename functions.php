@@ -11,14 +11,19 @@ function my_custom_theme_scripts()
         wp_enqueue_style('home-style', get_template_directory_uri() . '/css/home.css');
     } elseif (is_single()) {
         wp_enqueue_style('single-style', get_template_directory_uri() . '/css/single.css');
-    } elseif (is_page()) {
+    } elseif (is_page('basket')) { // Ensure you're targeting a specific page by slug or ID
         wp_enqueue_style('page-basket-styles', get_template_directory_uri() . '/css/page-basket.css');
-    } elseif (is_page('checkout')) { // Correctly target the checkout page
+    } elseif (is_page('checkout')) { // Target the checkout page specifically
         wp_enqueue_style('page-checkout-styles', get_template_directory_uri() . '/css/page-checkout.css');
-    } elseif (is_page()) {
+    } elseif (is_page('my-account')) { // Specifically target the My Account page
         wp_enqueue_style('page-my-account-styles', get_template_directory_uri() . '/css/page-my-account.css');
-    } elseif (is_page()) {
-        wp_enqueue_style('woocommerce-styles', get_template_directory_uri() . '/css/woocommerce.css');
+    }
+
+    // WooCommerce-specific styles
+    if (class_exists('WooCommerce')) {
+        if (is_shop() || is_product_category() || is_product()) {
+            wp_enqueue_style('woocommerce-styles', get_template_directory_uri() . '/css/woocommerce.css');
+        }
     }
 }
 add_action('wp_enqueue_scripts', 'my_custom_theme_scripts');
