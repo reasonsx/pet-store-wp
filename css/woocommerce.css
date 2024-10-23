@@ -45,3 +45,22 @@
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
+
+
+/* Product pagination styles */
+.woocommerce nav.woocommerce-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Pagination buttons */
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    margin: 0 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
