@@ -29,83 +29,88 @@
     <p>&copy; 2024 Pet Store. All rights reserved.</p>
   </div>
 </footer>
+
 <style>
-    /* Footer Styling */
+/* Footer Styling */
 .pet-store-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 40px 0;
-  font-family: Arial, sans-serif;
+  background-color: #1a1a1a; /* Dark background for contrast */
+  color: #f9f9f9; /* Light text color for readability */
+  padding: 40px 0; /* Vertical padding for spacing */
+  font-family: 'Arial', sans-serif; /* Font styling */
 }
 
 .footer-container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  max-width: 1200px; /* Maximum width for content */
+  margin: 0 auto; /* Center the container */
+  padding: 0 20px; /* Horizontal padding */
+  display: flex; /* Flexbox for layout */
+  justify-content: space-between; /* Space between sections */
+  flex-wrap: wrap; /* Wrap sections on small screens */
 }
 
 .footer-section {
-  flex-basis: 30%;
+  flex-basis: 30%; /* Each section takes up 30% */
+  margin-bottom: 20px; /* Bottom margin for spacing */
 }
 
 .footer-section h3 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: #ffcc00; /* Accent color */
+  font-size: 1.5rem; /* Heading size */
+  margin-bottom: 10px; /* Space below heading */
+  color: #ffcc00; /* Accent color for headings */
+  font-weight: bold; /* Bold font for headings */
 }
 
 .footer-section p, .footer-section ul {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 1rem; /* Font size for text */
+  line-height: 1.6; /* Line height for readability */
 }
 
 .footer-section ul {
-  list-style: none;
-  padding: 0;
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
 }
 
 .footer-section ul li {
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Space between list items */
 }
 
 .footer-section ul li a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s ease;
+  color: #f9f9f9; /* Link color */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease; /* Smooth transition on hover */
 }
 
 .footer-section ul li a:hover {
-  color: #ffcc00; /* Hover color */
+  color: #ffcc00; /* Change color on hover */
 }
 
 .social-icons {
-  display: flex;
+  display: flex; /* Flexbox for social icons */
+  flex-wrap: wrap; /* Allow wrapping */
 }
 
 .social-icons li {
-  margin-right: 10px;
+  margin-right: 15px; /* Space between icons */
 }
 
 .social-icons li a {
-  display: flex;
-  align-items: center;
+  display: flex; /* Flexbox for icon and text */
+  align-items: center; /* Center items vertically */
 }
 
 .social-icons li i {
-  margin-right: 5px;
+  margin-right: 5px; /* Space between icon and text */
 }
 
 .footer-bottom {
-  background-color: #222;
-  padding: 15px 0;
-  text-align: center;
+  background-color: #222; /* Darker background for footer bottom */
+  padding: 15px 0; /* Padding for spacing */
+  text-align: center; /* Center text */
 }
 
 .footer-bottom p {
-  font-size: 13px;
-  margin: 0;
+  font-size: 0.9rem; /* Smaller font for copyright */
+  margin: 0; /* Remove default margin */
 }
 
 </style>
