@@ -10,7 +10,7 @@
 
 <body <?php body_class(); ?>>
     <nav>
-        <img src="img/logo.png" alt="LOGO" width="100" height="100">
+        <img src="/img/logo.png" alt="LOGO" width="100" height="100">
         <ul>
             <li><a href="<?php echo home_url('/'); ?>">Home</a></li>
             <li><a href="">Store</a></li>
