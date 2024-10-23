@@ -17,6 +17,8 @@ function my_custom_theme_scripts()
         wp_enqueue_style('page-checkout-styles', get_template_directory_uri() . '/css/page-checkout.css');
     } elseif (is_page()) {
         wp_enqueue_style('page-my-account-styles', get_template_directory_uri() . '/css/page-my-account.css');
+    } elseif (is_page()) {
+        wp_enqueue_style('woocommerce-styles', get_template_directory_uri() . '/css/woocommerce.css');
     }
 }
 add_action('wp_enqueue_scripts', 'my_custom_theme_scripts');
