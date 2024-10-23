@@ -8,6 +8,9 @@
     margin-top: 50px;
     padding: 0 50px; /* Add padding to the sides */
 }
+.col-1, .col-2 {
+    padding: 0 !important;
+}
 div#customer_details {
     display: flex;
     flex-direction: column;
@@ -20,7 +23,6 @@ div#customer_details {
     background-color: none !important;
     border: none !important;
     box-shadow: none !important;
-    padding: none !important;
 }
 .form-row.place-order {
     display: flex;
@@ -38,7 +40,7 @@ div#order_review {
 }
 .woocommerce-checkout form.checkout {
     flex: 1.5; /* Same as basket */
-    padding: 20px;
+    /* padding: 20px; */
     border: 1px solid #dedede;
     border-radius: 10px;
     background-color: #fff;
