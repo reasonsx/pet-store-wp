@@ -135,3 +135,8 @@ form .cart{
     align-items: center;
     justify-content: space-between;
 }
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    border: 1px solid #FB9529;
+    background-color: #ffd7ad;
+}
