@@ -7,33 +7,7 @@
     justify-content: space-between; 
     margin-top: 50px; /* Space from the top */
 }
-div#customer_details {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-}
-.woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1 {
-    width: 100% !important;
-    background-color: none !important;
-    border: none !important;
-    box-shadow: none !important;
-}
-.form-row.place-order {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-div#order_review {
-    padding: none;
-}
-.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
-    width: 100% !important;
-    background-color: none !important;
-    border: none !important;
-    box-shadow: none !important;
-}
+
 .woocommerce-cart-form {
     flex: 1.5; /* Make this section take up more of the remaining space */
     display: flex;
