@@ -2,6 +2,10 @@
     <?php echo do_shortcode('[woocommerce_checkout]'); ?>
 <?php get_footer(); ?>
 <style>
+    body {
+        display: flex;
+        flex-direction: column;
+    }
     /* General form styling */
 form.checkout {
     background-color: #f9f9f9;
