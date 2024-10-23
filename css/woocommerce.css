@@ -10,11 +10,14 @@
     margin: 0 auto;
     padding: 0;
     list-style: none;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Each product item */
 .woocommerce ul.products li.product {
-    width: 23%; /* Set 4 products per row */
+    width: 300px; /* Set 4 products per row */
     height: 500px;
     margin-bottom: 30px; /* Space between product rows */
     padding: 15px;
