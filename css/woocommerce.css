@@ -115,3 +115,13 @@
     font-size: 20px;
     font-weight: bold;
 }
+
+.input-text.qty {
+    width: 60px; /* Set a width for the input box */
+    height: 40px; /* Set a height for the input box */
+    padding: 5px; /* Padding inside the input */
+    font-size: 16px; /* Font size */
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
