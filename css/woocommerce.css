@@ -102,3 +102,16 @@
     margin: 0 auto; /* Center the product page */
     padding: 20px; /* Add padding around the content */
 }
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button{
+    background-color: #FB9529;
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+    width: fit-content;
+    font-size: 20px;
+    font-weight: bold;
+}
