@@ -20,7 +20,12 @@ div#customer_details {
     background-color: none !important;
     border: none !important;
     box-shadow: none !important;
-
+}
+.woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
+    width: 100% !important;
+    background-color: none !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 .woocommerce-cart-form {
     flex: 1.5; /* Make this section take up more of the remaining space */
