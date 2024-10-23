@@ -103,7 +103,7 @@
     padding: 20px; /* Add padding around the content */
 }
 
-.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button{
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt{
     background-color: #FB9529;
     color: black;
     padding: 15px;
