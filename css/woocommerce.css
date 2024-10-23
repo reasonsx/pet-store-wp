@@ -113,6 +113,11 @@
     font-size: 20px;
     font-weight: bold;
 }
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt:hover{
+    background-color: #FB9529;
+    color: black;
+}
+
 
 .input-text.qty {
     width: 60px; /* Set a width for the input box */
