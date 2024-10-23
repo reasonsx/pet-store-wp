@@ -29,9 +29,6 @@ div#customer_details {
     justify-content: center;
     align-items: center;
 }
-div#order_review {
-    padding: none;
-}
 .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
     width: 100% !important;
     background-color: none !important;
@@ -49,7 +46,7 @@ div#order_review {
 
 .woocommerce-checkout-review-order {
     flex: 1;
-    padding: 20px;
+    /* padding: 20px; */
     border: 1px solid #dedede;
     border-radius: 10px;
     background-color: #fff;
