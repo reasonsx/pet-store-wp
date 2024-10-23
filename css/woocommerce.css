@@ -21,15 +21,9 @@
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-align: center; /* Center align product text */
 }
 
-/* Hover effect for each product */
-.woocommerce ul.products li.product:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
 
 /* Product image */
 .woocommerce ul.products li.product img {
@@ -38,5 +32,4 @@
     border-bottom: 1px solid #ddd;
     margin-bottom: 10px;
     padding-bottom: 10px;
-    transition: transform 0.3s ease;
 }
