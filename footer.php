@@ -1,30 +1,5 @@
 <?php wp_footer(); ?>
 <footer class="pet-store-footer">
-  <div class="footer-container">
-    <div class="footer-section about-us">
-      <h3>About Us</h3>
-      <p>Your trusted online pet store, offering the best products and care tips for your furry friends.</p>
-    </div>
-    <div class="footer-section quick-links">
-      <h3>Quick Links</h3>
-      <ul>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">FAQs</a></li>
-        <li><a href="#">Shipping & Returns</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-    </div>
-    <div class="footer-section social-media">
-      <h3>Follow Us</h3>
-      <ul class="social-icons">
-        <li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
-        <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
-      </ul>
-    </div>
-  </div>
   <div class="footer-bottom">
     <p>&copy; 2024 Pet Store. All rights reserved.</p>
   </div>
