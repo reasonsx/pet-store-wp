@@ -130,7 +130,7 @@
     margin-right: 10px;
 }
 
-form .cart{
+.woocommerce div.product form.cart{
     display: flex;
     align-items: center;
     justify-content: space-between;
