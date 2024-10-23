@@ -1,11 +1,19 @@
 .woocommerce {
-    color: #000000; 
-    font-family: Poppins, sans-serif; 
+    color: #000000;
+    font-family: Poppins, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 50px; /* Add padding to the sides */
+}
+div#customer_details {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between; 
-    margin-top: 50px; /* Space from the top */
+    justify-content: center;
+    margin-top: 20px;
 }
 
 .woocommerce-cart-form {
