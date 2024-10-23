@@ -15,6 +15,9 @@ div#customer_details {
     margin-top: 20px;
     padding: 20px;
 }
+.col-1 {
+    width: auto;
+}
 
 .woocommerce-cart-form {
     flex: 1.5; /* Make this section take up more of the remaining space */
