@@ -83,3 +83,14 @@
     border-color: #FB9529; /* Change border color on focus */
     outline: none; /* Remove default outline */
 }
+
+/* Optional: Style for hidden inputs (not visible, but good for maintenance) */
+.woocommerce-ordering input[type="hidden"] {
+    display: none; /* Hide hidden inputs */
+}
+
+/* Style for sorting label (if needed) */
+.woocommerce-ordering label {
+    margin-right: 10px; /* Space between label and dropdown */
+    font-weight: bold; /* Bold label */
+}
