@@ -2,22 +2,20 @@
     background-color: #FB9529;
 }
 
-/* General container for products */
 .woocommerce ul.products {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Space between products */
+    justify-content: space-between; /* Proper spacing between products */
     margin: 0 auto;
     padding: 0;
     list-style: none;
-    max-width: 1200px; /* Make the container flexible */
+    max-width: 1200px; /* Set a maximum width */
     width: 100%; /* Ensure it fills available space */
 }
 
 /* Each product item */
 .woocommerce ul.products li.product {
-    width: 300px; /* Set 4 products per row */
-    height: 500px;
+    width: 31%; /* Adjusted width for 3 products per row */
     margin-bottom: 30px; /* Space between product rows */
     padding: 15px;
     border: 1px solid #ddd;
@@ -26,7 +24,6 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center align product text */
 }
-
 
 /* Product image */
 .woocommerce ul.products li.product img {
