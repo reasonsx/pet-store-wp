@@ -32,7 +32,6 @@ div#customer_details {
 .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2 {
     width: 100% !important;
     background-color: none !important;
-    border: none !important;
     box-shadow: none !important;
 }
 .woocommerce-checkout form.checkout {
