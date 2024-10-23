@@ -14,7 +14,7 @@
 
 /* Each product item */
 .woocommerce ul.products li.product {
-    width: 30%; /* Set 3 products per row; adjust this value as needed */
+    width: 23%; /* Set 4 products per row */
     margin-bottom: 30px; /* Space between product rows */
     padding: 15px;
     border: 1px solid #ddd;
