@@ -2,16 +2,17 @@
 <div class="blog-post">
     <div class="blog-post-start">
         <h1 class="blog-post__title"><?php the_title(); ?></h1>
+        <div class="categories-container">
+        <h1><?php pll_e('CATEGORIES') ?></h1>
         <div class="categories">
-            <?php
-            $categories = get_the_category();
-            if ($categories) {
-                foreach ($categories as $category) {
-                    echo '<h2 class="category">' . esc_html($category->name) . '</h2>';
-                }
-            }
-            ?>
+            <div class="category-box"><img src="<?php echo get_template_directory_uri(); ?>/img/Cat.png" alt=""></div>
+            <div class="category-box"><img src="<?php echo get_template_directory_uri(); ?>/img/Dog.png" alt=""></div>
+            <div class="category-box"><img src="<?php echo get_template_directory_uri(); ?>/img/Fish.png" alt=""></div>
+            <div class="category-box"><img src="<?php echo get_template_directory_uri(); ?>/img/Bird.png" alt=""></div>
+            <div class="category-box"><img src="<?php echo get_template_directory_uri(); ?>/img/Hamster.png" alt="">
+            </div>
         </div>
+    </div>
 
         <p class="blog-post__info">
             <a href="#"><?php echo esc_html(get_the_date()); ?></a> <?php pll_e('by') ?>
