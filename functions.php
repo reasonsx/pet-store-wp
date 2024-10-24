@@ -22,11 +22,11 @@ function my_custom_theme_scripts()
     // WooCommerce-specific styles
     if (class_exists('WooCommerce')) {
         if (is_shop() || is_product_category() || is_product()) {
-            wp_enqueue_style('woocommerce-styles', get_template_directory_uri() . '/css/woocommerce.css', array(), '1.0', 'all');
+            wp_enqueue_style('woocommerce-styles', get_template_directory_uri() . '/css/woocommerce.css');
         }
     }
 }
-add_action('wp_enqueue_scripts', 'my_custom_theme_scripts', 99); // Priority 99 to load after WooCommerce
+add_action('wp_enqueue_scripts', 'my_custom_theme_scripts');
 
 function plp_register_strings()
 {
