@@ -93,7 +93,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #f1f1f1;
+            background-color: #d9d9d9;
             padding: 20px;
             font-family: Arial, sans-serif;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
