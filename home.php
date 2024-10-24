@@ -1,7 +1,10 @@
 <?php get_header(); ?>
-
+<?php $title = get_field('blog-title') ?>
 <div class="hero-section">
     <div class="hero-img">
+        <div class="hero-text">
+        <h1><?php echo $title ?></h1>
+        </div>
         <!-- <div class="grey-bg">
             <div class="hero-text">PET BLOG</div>
         </div> -->
