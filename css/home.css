@@ -49,14 +49,22 @@ li{
 }
 
 
-
 .hero-img {
-    background-image:url("../img/hero.png");
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    width: auto;
+    height: 700px;
+    background-image: url('../img/blog-background.png');
+}
+/* .hero-img {
+    background-image:url("../img/blog-background.png");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  }
+  } */
 
   .hero-text{
     font-size: 120px;
