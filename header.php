@@ -93,15 +93,16 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #fb972e;
+            background-color: #f1f1f1;
             padding: 20px;
             font-family: Arial, sans-serif;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         nav .logo {
             font-size: 24px;
             font-weight: bold;
-            color: #fff;
+            color: #030104;
         }
 
         nav ul {
@@ -115,7 +116,7 @@
         }
 
         nav ul li a {
-            color: #fff;
+            color: #030104;
             text-decoration: none;
             font-size: 18px;
             transition: color 0.3s ease;
