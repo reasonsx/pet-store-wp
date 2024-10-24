@@ -108,11 +108,11 @@ h1 {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-   width: 80%;
+   width: 1160px;
    margin-top: 50px;
 }
 .posts-container{
-    width: 1160px;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
