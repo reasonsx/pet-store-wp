@@ -150,7 +150,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 1160px;
-    margin: 128px auto;
+    margin: 50px auto;
 }
 .categories {
     display: flex;
