@@ -93,16 +93,15 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #d9d9d9;
+            background-color: #333;
             padding: 20px;
             font-family: Arial, sans-serif;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         nav .logo {
             font-size: 24px;
             font-weight: bold;
-            color: #030104;
+            color: #fff;
         }
 
         nav ul {
@@ -116,14 +115,14 @@
         }
 
         nav ul li a {
-            color: #030104;
+            color: #fff;
             text-decoration: none;
             font-size: 18px;
             transition: color 0.3s ease;
         }
 
         nav ul li a:hover {
-            color: #030104;
+            color: #f0a500;
         }
 
         /* Language Switcher Styling */
