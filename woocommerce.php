@@ -69,5 +69,5 @@ if ($loop->have_posts()) {
 
 // Reset Post Data
 wp_reset_postdata();
-
+?>
 <?php get_footer(); ?>
