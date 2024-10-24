@@ -93,7 +93,7 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #fb972e;
+            background-color: #333;
             padding: 20px;
             font-family: Arial, sans-serif;
         }
@@ -122,7 +122,7 @@
         }
 
         nav ul li a:hover {
-            color: #030104;
+            color: #f0a500;
         }
 
         /* Language Switcher Styling */
