@@ -4,6 +4,7 @@
     <div class="hero-img">
         <div class="hero-text">
         <h1><?php echo $title ?></h1>
+        <p>gfjgf</p>
         </div>
         <!-- <div class="grey-bg">
             <div class="hero-text">PET BLOG</div>
