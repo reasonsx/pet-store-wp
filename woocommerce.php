@@ -44,33 +44,30 @@
 // Set up the query to filter by category based on the user's selection
 $category_slug = isset($_GET['category']) ? sanitize_text_field($_GET['category']) : '';
 
-$args = [
-    'post_type'      => 'product',
-    'posts_per_page' => 10, // You can adjust the number of products per page
-];
+$args = array(
+    'post_type' => 'product',
+    'posts_per_page' => 10 // Adjust as needed
+);
 
-if ($category_slug !== '') {
-    $args['tax_query'] = [
-        [
-            'taxonomy' => 'product_cat',
-            'field'    => 'slug',
-            'terms'    => $category_slug,
-        ],
-    ];
-}
-
-// Fetch products based on the query
 $loop = new WP_Query($args);
 
 if ($loop->have_posts()) {
+    echo '<ul class="products">'; // Opening the <ul> tag with class "products"
+    
     while ($loop->have_posts()) : $loop->the_post();
-        wc_get_template_part('content', 'product'); // Display product content
+        echo '<li class="product">'; // Opening the <li> tag with class "product"
+        
+        wc_get_template_part('content', 'product'); // Display the product content
+        
+        echo '</li>'; // Closing the <li> tag
     endwhile;
+    
+    echo '</ul>'; // Closing the <ul> tag
 } else {
     echo __('No products found');
 }
 
+// Reset Post Data
 wp_reset_postdata();
-?>
 
 <?php get_footer(); ?>
