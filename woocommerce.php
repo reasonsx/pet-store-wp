@@ -3,37 +3,37 @@
 <div class="categories-container">
     <h1><?php pll_e('CATEGORIES'); ?></h1>
     <div class="categories">
-        <!-- Category 1: Cats -->
+        <!-- Category: Cat -->
         <div class="category-box">
-            <a href="?category=cats">
+            <a href="?category=cat">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/Cat.png" alt="">
             </a>
         </div>
         
-        <!-- Category 2: Dogs -->
+        <!-- Category: Dog -->
         <div class="category-box">
-            <a href="?category=dogs">
+            <a href="?category=dog">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/Dog.png" alt="">
             </a>
         </div>
         
-        <!-- Category 3: Fish -->
+        <!-- Category: Fish -->
         <div class="category-box">
             <a href="?category=fish">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/Fish.png" alt="">
             </a>
         </div>
         
-        <!-- Category 4: Birds -->
+        <!-- Category: Bird -->
         <div class="category-box">
-            <a href="?category=birds">
+            <a href="?category=bird">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/Bird.png" alt="">
             </a>
         </div>
         
-        <!-- Category 5: Hamsters -->
+        <!-- Category: Rodent -->
         <div class="category-box">
-            <a href="?category=hamsters">
+            <a href="?category=rodent">
                 <img src="<?php echo get_template_directory_uri(); ?>/img/Hamster.png" alt="">
             </a>
         </div>
