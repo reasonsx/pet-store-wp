@@ -159,8 +159,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 182px;
-    height: 182px;
+    width: 150px;
+    height: 150px;
     padding: 20px;
     background-color: #FB9529;
     border-radius: 50%;
