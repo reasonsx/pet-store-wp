@@ -131,6 +131,7 @@ button svg{
     justify-content: space-between;
     align-items: center;
     color: white;
+    
     font-size: 20px;
     font-weight: 500;
 }
@@ -138,11 +139,11 @@ button svg{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: auto;
+    width: 372px;
     padding: 16px;
     color: black;
-    /* font-size: 20px; */
-    /* font-weight: 500; */
+    font-size: 20px;
+    font-weight: 500;
     background-color: #f1f1f1;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     border-radius: 24px;
@@ -208,7 +209,7 @@ button svg{
     font-weight: 500;
     background-color: #f1f1f1;
     border-radius: 24px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    
 }
 .best-seller img {
     width: 100%;
