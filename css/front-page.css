@@ -214,7 +214,7 @@ button svg{
 }
 .best-seller img {
     width: 100%;
-    height: 100%;
+    height: 164px;
     object-fit: cover;
     border-radius: 8px;
 }
