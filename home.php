@@ -2,9 +2,9 @@
 
 <div class="hero-section">
     <div class="hero-img">
-        <div class="grey-bg">
+        <!-- <div class="grey-bg">
             <div class="hero-text">PET BLOG</div>
-        </div>
+        </div> -->
     </div>
 </div>
 

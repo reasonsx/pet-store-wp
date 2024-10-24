@@ -49,7 +49,7 @@ li{
 }
 
 
-.hero-img {
+/* .hero-img {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -58,19 +58,15 @@ li{
     height: 700px;
     
     background-image: url('../img/blog-background.png');
-}
-.hero-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-/* .hero-img {
-    background-image:url("../img/blog-background.png");
-    height: 100vh;
+} */
+.hero-img {
+    background-image:url("../img/blog-background-new.png");
+    height: 700px;
+    width: auto;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  } */
+  }
 
   .hero-text{
     font-size: 120px;
