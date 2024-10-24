@@ -36,7 +36,7 @@
     color: black;
     font-size: 20px;
     font-weight: 500;
-    background-color: #f1f1f1;
+    background-color: white;
     border-radius: 24px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
     width: 100%; /* Ensure each product takes up full width */
@@ -47,7 +47,7 @@
 .woocommerce ul.products li.product img {
     max-width: 100%;
     height: auto;
-    border-bottom: 1px solid #ddd;
+    border-radius: 8px;
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
