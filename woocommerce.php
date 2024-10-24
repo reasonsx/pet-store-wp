@@ -44,10 +44,22 @@
 // Set up the query to filter by category based on the user's selection
 $category_slug = isset($_GET['category']) ? sanitize_text_field($_GET['category']) : '';
 
+// Set up the query arguments
 $args = array(
     'post_type' => 'product',
     'posts_per_page' => 10 // Adjust as needed
 );
+
+// If a category is selected, filter the query by category
+if (!empty($category_slug)) {
+    $args['tax_query'] = array(
+        array(
+            'taxonomy' => 'product_cat', // WooCommerce product category taxonomy
+            'field'    => 'slug',
+            'terms'    => $category_slug,
+        ),
+    );
+}
 
 $loop = new WP_Query($args);
 
