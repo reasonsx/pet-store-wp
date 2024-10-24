@@ -112,6 +112,7 @@ h1 {
    margin-top: 50px;
 }
 .posts-container{
+    width: 1160px;
     display: flex;
     justify-content: center;
 }
